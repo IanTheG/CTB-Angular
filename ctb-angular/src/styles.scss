@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'variables';
+
+:root {
+  --theme: #967db4;
+  --theme-invert: #6a5188;
+  --theme-trans: rgba(150, 125, 180, 0.85);
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  box-sizing: border-box;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+// Scroll snapping
+
+@function vh($quantity) {
+  @return calc(var(--vh, 1vh) * #{$quantity});
+}
+
+.scroll-box {
+  height: vh(100);
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.box {
+  height: vh(100);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-snap-align: center;
+}
+
+// Fonts
+
+h1,
+h2,
+h3 {
+  font-family: map-get($map: $fonts, $key: 'heading');
+  background-color: var(--theme);
+  border-bottom: 4px solid var(--theme-invert);
+  margin: 0;
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-family: map-get($map: $fonts, $key: 'text');
+}
+
+a,
+p {
+  font-family: map-get($map: $fonts, $key: 'text');
+  margin: 1rem;
+}
+
+@media screen and (min-width: map-get($map: $breakpoints, $key: 'md')) {
+  html {
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (min-width: map-get($map: $breakpoints, $key: 'lg')) {
+  html {
+    font-size: 19px;
+  }
+}

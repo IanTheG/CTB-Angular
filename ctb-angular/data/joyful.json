@@ -1,0 +1,246 @@
+{
+  "id": "joyful",
+  "name": "Joyful",
+  "decades": [
+    {
+      "id": 1,
+      "name": "The Annunciation",
+      "number": "First",
+      "fruits": "humility",
+      "scenes": [
+        {
+          "verse": "The angel Gabriel was sent from God to a town of Galilee called Nazareth, to a virgin betrothed to a man named Joseph, of the house of David, and the virgin’s name was Mary.",
+          "ref": "Luke 1:26-27"
+        },
+        {
+          "verse": "And coming to her, he said, \"Hail, favored one! The Lord is with you.!\"",
+          "ref": "Luke 1:28"
+        },
+        {
+          "verse": "But she was greatly troubled at what was said and pondered what sort of greeting this might be.",
+          "ref": "Luke 1:29"
+        },
+        {
+          "verse": "Then the angel said to her, \"Do not be afraid, Mary, for you have found favor with God.\"",
+          "ref": "Luke 1:30"
+        },
+        {
+          "verse": "\"Behold, you will conceive in your womb and bear a son, and you shall name him Jesus.\"",
+          "ref": "Luke 1:31"
+        },
+        {
+          "verse": "\"He will be great and will be called Son of the Most High, and the Lord God will give him the throne of David his father.\"",
+          "ref": "Luke 1:32"
+        },
+        {
+          "verse": "But Mary said to the angel, \"How can this be, since I have no relations with a man?\"",
+          "ref": "Luke 1:34"
+        },
+        {
+          "verse": "\"The holy Spirit will come upon you, and the power of the Most High will overshadow you.\"",
+          "ref": "Luke 1:35a"
+        },
+        {
+          "verse": "\"Therefore the child to be born will be called holy, the Son of God.\"",
+          "ref": "Luke 1:35b"
+        },
+        {
+          "verse": "Mary said, \"Behold, I am the handmaid of the Lord. May it be done to me according to your word.\"",
+          "ref": "Luke 1:38"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Visitation",
+      "number": "Second",
+      "fruits": "love of neighbor",
+      "scenes": [
+        {
+          "verse": "Mary set out and traveled to the hill country in haste to a town of Judah, where she entered the house of Zechariah and greeted Elizabeth.",
+          "ref": "Luke 1:39-40"
+        },
+        {
+          "verse": "When Elizabeth heard Mary’s greeting, the infant leaped in her womb, and Elizabeth was filled with the holy Spirit.",
+          "ref": "Luke 1:41"
+        },
+        {
+          "verse": "She cried out in a loud voice and said, \"Most blessed are you among women, and blessed is the fruit of your womb.\"",
+          "ref": "Luke 1:42"
+        },
+        {
+          "verse": "\"Blessed are you who believed that what was spoken to you by the Lord would be fulfilled.\"",
+          "ref": "Luke 1:45"
+        },
+        {
+          "verse": "And Mary said, \"My soul proclaims the greatness the Lord, and my spirit rejoices in God my Savior, for he has looked upon his handmaid’s lowliness.\"",
+          "ref": "Luke 1:46-48a"
+        },
+        {
+          "verse": "\"Behold, from now on will all ages call me blessed. The Mighty One has done great things for me, and holy is his name.\"",
+          "ref": "Luke 1:48b-49"
+        },
+        {
+          "verse": "\"His mercy is from age to age to those who fear him.\"",
+          "ref": "Luke 1:50"
+        },
+        {
+          "verse": "\"He has shown might with his arm, dispersed the arrogant of mind and heart.\"",
+          "ref": "Luke 1:51"
+        },
+        {
+          "verse": "\"He has thrown down the rulers from their thrones but lifted up the lowly.\"",
+          "ref": "Luke 1:52"
+        },
+        {
+          "verse": "\"The hungry he has filled with good things; the rich he has sent away empty.\"",
+          "ref": "Luke 1:53"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Nativity",
+      "number": "Third",
+      "fruits": "poverty, detachment from things of the world, love of the poor",
+      "scenes": [
+        {
+          "verse": "While they were there [in Bethlehem], the time came for Mary to have her child.",
+          "ref": "Luke 2:6"
+        },
+        {
+          "verse": "She gave birth to her firstborn son. She wrapped him in swaddling clothes and laid him in a manger, because there was no room for them in the inn.",
+          "ref": "Luke 2:7"
+        },
+        {
+          "verse": "Now there were shepherds in that region living in the fields and keeping the night watch over their flock.",
+          "ref": "Luke 2:8"
+        },
+        {
+          "verse": "The angel of the Lord appeared to them and the glory of the Lord shone around them, and they were struck with great fear.",
+          "ref": "Luke 2:9"
+        },
+        {
+          "verse": "The angel said to them, \"Do not be afraid; for behold, I proclaim to you good news of great joy that will be for all the people.\"",
+          "ref": "Luke 2:10"
+        },
+        {
+          "verse": "\"For today in the city of David a savior has been born for you who is Messiah and Lord. You will find an infant wrapped in swaddling clothes and lying in a manger.\"",
+          "ref": "Luke 2:11-12"
+        },
+        {
+          "verse": "And suddenly there was a multitude of the heavenly host with the angel, praising God and saying: \"Glory to God in the highest and on earth peace to those on whom his favor rests.\"",
+          "ref": "Luke 2:13-14"
+        },
+        {
+          "verse": "When Jesus was born in Bethlehem of Judea, in the days of King Herod, behold, magi from the east arrived and on entering the house they saw the child with Mary his mother.",
+          "ref": "Matthew 2:1, 11a"
+        },
+        {
+          "verse": "They prostrated themselves and did him homage. Then they opened their treasures and offered him gifts of gold, frankincense, and myrrh.",
+          "ref": "Matthew 2:11b"
+        },
+        {
+          "verse": "And Mary kept all these things, reflecting on them in her heart.",
+          "ref": "Luke 2:19"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Presentation",
+      "number": "Fourth",
+      "fruits": "obedience",
+      "scenes": [
+        {
+          "verse": "When the days were completed for their purification according to the law of Moses, they took him up to Jerusalem to present him to the Lord.",
+          "ref": "Luke 2:22"
+        },
+        {
+          "verse": "Now there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, awaiting the consolation of Israel.",
+          "ref": "Luke 2:25"
+        },
+        {
+          "verse": "It had been revealed to him by the holy Spirit that he should not see death before he had seen the Messiah of the Lord.",
+          "ref": "Luke 2:26"
+        },
+        {
+          "verse": "He came in the Spirit into the temple; and when the parents brought in the child Jesus to perform the custom of the law in regard to him, he took him into his arms and blessed God.",
+          "ref": "Luke 2:27-28"
+        },
+        {
+          "verse": "\"Now, Master, you may let your servant go in peace, according to your word, for my eyes have seen your salvation which you prepared in sight of all the peoples.\"",
+          "ref": "Luke 2:29-31"
+        },
+        {
+          "verse": "\"Simeon blessed them and said to Mary his mother, \"Behold, this child is destined for the fall and rise of many in Israel, and to be a sign that will be contradicted.\"",
+          "ref": "Luke 2:34"
+        },
+        {
+          "verse": "\"And you yourself a sword will pierce, so that the thoughts of many hearts may be revealed.\"",
+          "ref": "Luke 2:35"
+        },
+        {
+          "verse": "There was also a prophetess, Anna, the daughter of Phanuel, of the tribe of Asher. She was advanced in years, having lived seven years with her husband after her marriage, and then as a widow until she was eighty-four.",
+          "ref": "Luke 2:34"
+        },
+        {
+          "verse": "And coming forward at that very time, she gave thanks to God and spoke about the child to all who were awaiting the redemption of Jerusalem.",
+          "ref": "Luke 2:35"
+        },
+        {
+          "verse": "When they had fulfilled all the prescriptions of the law of the Lord, they returned to Galilee, to their own town of Nazareth. The child grew and became strong, filled with wisdom; and the favor of God was upon him.",
+          "ref": "Luke 2:39-40"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Finding of Jesus in the Temple",
+      "number": "Fifth",
+      "fruits": "piety, joy of finding Jesus",
+      "scenes": [
+        {
+          "verse": "Each year his parents went to Jerusalem for the feast of Passover, and when he was twelve years old, they went up according to festival custom.",
+          "ref": "Luke 2:41-42"
+        },
+        {
+          "verse": "After they had completed its days, as they were returning, the boy Jesus remained behind in Jerusalem, but his parents did not know it.",
+          "ref": "Luke 2:43"
+        },
+        {
+          "verse": "They returned to Jerusalem to look for him. After three days they found him in the temple.",
+          "ref": "Luke 2:45-46a"
+        },
+        {
+          "verse": "He was sitting in the midst of the teachers, listening to them and asking them questions.",
+          "ref": "Luke 2:46b"
+        },
+        {
+          "verse": "And all who heard him were astounded at his understanding and his answers.",
+          "ref": "Luke 2:47"
+        },
+        {
+          "verse": "When his parents saw him, they were astonished, and his mother said to him, \"Son, why have you done this to us? Your father and I have been looking for you with great anxiety.\"",
+          "ref": "Luke 2:48"
+        },
+        {
+          "verse": "And he said to them, \"Why were you looking for me? Did you not know that I must be in my Father’s house?\"",
+          "ref": "Luke 2:49"
+        },
+        {
+          "verse": "But they did not understand what he said to them.",
+          "ref": "Luke 2:50"
+        },
+        {
+          "verse": "He went down with them and came to Nazareth, and was obedient to them; and his mother kept all these things in her heart.",
+          "ref": "Luke 2:51"
+        },
+        {
+          "verse": "And Jesus advanced in wisdom and age and favor before God and man.",
+          "ref": "Luke 2:52"
+        }
+      ]
+    }
+  ]
+}

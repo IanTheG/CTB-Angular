@@ -1,0 +1,246 @@
+{
+  "id": "glorious",
+  "name": "Glorious",
+  "decades": [
+    {
+      "id": 1,
+      "name": "The Resurrection",
+      "number": "First",
+      "fruits": "faith",
+      "scenes": [
+        {
+          "verse": "\"Amen, amen, I say to you, you will weep and mourn, while the world rejoices; you will grieve, but your grief will become joy.\"",
+          "ref": "John 16:20"
+        },
+        {
+          "verse": "\"So you also are now in anguish. But I will see you again, and your hearts will rejoice, and no one will take your joy away from you.\"",
+          "ref": "John 16:22"
+        },
+        {
+          "verse": "But at daybreak on the first day of the week they took the spices they had prepared and went to the tomb.",
+          "ref": "Luke 24:1"
+        },
+        {
+          "verse": "And behold, there was a great earthquake; for an angel of the Lord descended from heaven, approached, rolled back the stone, and sat upon it.",
+          "ref": "Matthew 28:2"
+        },
+        {
+          "verse": "\"Do not be afraid! I know that you are seeking Jesus the crucified.\"",
+          "ref": "Matthew 28:5"
+        },
+        {
+          "verse": "\"He is not here, for he has been raised just as he said. Come and see the place where he lay.\"",
+          "ref": "Matthew 28:6"
+        },
+        {
+          "verse": "\"And he is going before you to Galilee; there you will see him.\"",
+          "ref": "Matthew 28:7b"
+        },
+        {
+          "verse": "Then they went away quickly from the tomb, fearful yet overjoyed, and ran to announce this to his disciples.",
+          "ref": "Matthew 28:8"
+        },
+        {
+          "verse": "\"I am the resurrection and the life; whoever believes in me, even if he dies, will live.\"",
+          "ref": "John 11:25"
+        },
+        {
+          "verse": "\"And everyone who lives and believes in me will never die.\"",
+          "ref": "John 11:26"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Ascension",
+      "number": "Second",
+      "fruits": "hope, desire for Heaven",
+      "scenes": [
+        {
+          "verse": "He presented himself alive to them by many proofs after he had suffered, appearing to them during forty days and speaking about the kingdom of God.",
+          "ref": "Acts 1:3"
+        },
+        {
+          "verse": "Then Jesus led them out as far as Bethany, raised his hands, and blessed them.",
+          "ref": "Luke 24:50"
+        },
+        {
+          "verse": "\"All power in heaven and on earth has been given to me. Go, therefore, and make disciples of all nations.\"",
+          "ref": "Matthew 28:18b-19a"
+        },
+        {
+          "verse": "\"Baptize them in the name of the Father, and of the Son, and of the Holy Spirit.\"",
+          "ref": "Matthew 28:19b"
+        },
+        {
+          "verse": "\"Teach them to observe all that I have commanded you.\"",
+          "ref": "Matthew 28:20a"
+        },
+        {
+          "verse": "\"He who believes and is baptized will be saved. He who does not believe will be condemned.\"",
+          "ref": "Mark 16:16"
+        },
+        {
+          "verse": "\"And behold, I am with you always, until the end of the age.\"",
+          "ref": "Matthew 28:20b"
+        },
+        {
+          "verse": "So then the Lord Jesus, after he spoke to them, was taken up into heaven and took his seat at the right hand of God.",
+          "ref": "Mark 16:19"
+        },
+        {
+          "verse": "While they were looking intently at the sky as he was going, suddenly two men dressed in white garments stood beside them.",
+          "ref": "Acts: 1:10"
+        },
+        {
+          "verse": "They said, \"Men of Galilee, why are you standing there looking at the sky?\" Then they returned to Jerusalem from the mount called Olivet, which is near Jerusalem.",
+          "ref": "Acts 1:11a, 12"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Descent of The Holy Spirit",
+      "number": "Third",
+      "fruits": "wisdom, love of God, divine charity",
+      "scenes": [
+        {
+          "verse": "When the time for Pentecost was fulfilled, they were all in one place together.",
+          "ref": "Acts 2:1"
+        },
+        {
+          "verse": "And suddenly there came from the sky a noise like a strong driving wind, and it filled the entire house in which they were.",
+          "ref": "Acts 2:2"
+        },
+        {
+          "verse": "Then there appeared to them tongues as of fire, which parted and came to rest on each one of them.",
+          "ref": "Acts 2:3"
+        },
+        {
+          "verse": "And they were all filled with the Holy Spirit and began to speak in different tongues, as the Spirit enabled them to proclaim.",
+          "ref": "Acts 2:4"
+        },
+        {
+          "verse": "At this sound, they gathered in a large crowd, but they were confused because each one heard them speaking in his own language.",
+          "ref": "Acts 2:6"
+        },
+        {
+          "verse": "Then Peter stood up with the Eleven, raised his voice, and proclaimed to them.",
+          "ref": "Acts 2:14a"
+        },
+        {
+          "verse": "\"Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins; and you will receive the gift of the Holy Spirit.\"",
+          "ref": "Acts 2:38"
+        },
+        {
+          "verse": "Those who accepted his message were baptized, and about three thousand persons were added that day.",
+          "ref": "Acts 2:41"
+        },
+        {
+          "verse": "Send forth your Spirit, and they shall be created; and you shall renew the face of the earth.",
+          "ref": "Come, Holy Spirit prayer"
+        },
+        {
+          "verse": "Come, Holy Spirit, fill the hearts of your faithful: and kindle in them the fire of your love.",
+          "ref": "Come, Holy Spirit prayer"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Assumption",
+      "number": "Fourth",
+      "fruits": "devotion to Mary",
+      "scenes": [
+        {
+          "verse": "And Mary said: \"My soul proclaims the greatness of the Lord; my spirit rejoices in God my savior.\"",
+          "ref": "Luke 1:46-47"
+        },
+        {
+          "verse": "For he has looked upon his handmaid’s lowliness; behold, from now on will all ages call me blessed",
+          "ref": "Luke 1:48"
+        },
+        {
+          "verse": "The Mighty One has done great things for me, and holy is his name.",
+          "ref": "Luke 1:49"
+        },
+        {
+          "verse": "Then God’s temple in heaven was opened, and the ark of his covenant could be seen in the temple.",
+          "ref": "Revelation 11:19a"
+        },
+        {
+          "verse": "A great sign appeared in the sky, a woman clothed with the sun. With the moon under her feet, and on her head a crown of twelve stars.",
+          "ref": "Revelation 12:1"
+        },
+        {
+          "verse": "My lover speaks and says to me, \"Arise, my friend, my beautiful one, and come!\"",
+          "ref": "Song 2:10"
+        },
+        {
+          "verse": "\"For see, winter is past; the rains are over and gone.\"",
+          "ref": "Song 2:11"
+        },
+        {
+          "verse": "\"Let me your face, let me hear your voice; for your voice is sweet, and your face is lovely.\"",
+          "ref": "Song 2:14"
+        },
+        {
+          "verse": "All glorious is the king’s daughter as she enters, her raiment threaded with gold. In embroidered apparel she is led to the king.",
+          "ref": "Psalm 45:14-15"
+        },
+        {
+          "verse": "Blessed are you, daughter, by the Most High God, above all the women on earth.",
+          "ref": "Judith 13:18"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Coronation",
+      "number": "Fifth",
+      "fruits": "perseverance, increase in virtue and trust",
+      "scenes": [
+        {
+          "verse": "Who is this that comes forth like the dawn, beautiful as the white moon, pure as the blazing sun, fearsome as celestial visions?",
+          "ref": "Song 6:10"
+        },
+        {
+          "verse": "Like sun shining upon the temple of the King, like a rainbow appearing in the cloudy sky.",
+          "ref": "Sirach 50:7"
+        },
+        {
+          "verse": "Like blossoms on the branches in springtime, like a lily by running waters.",
+          "ref": "Sirach 50:8"
+        },
+        {
+          "verse": "\"In the heights of heaven I dwelt, and my throne was in a pillar of cloud.\"",
+          "ref": "Sirach 24:4"
+        },
+        {
+          "verse": "\"Come to me, all who desire me, and be filled with my fruits.\"",
+          "ref": "Sirach 24:19"
+        },
+        {
+          "verse": "\"I bud forth delights like a vine; my blossoms are glorious and rich fruit.\"",
+          "ref": "Sirach 24:17"
+        },
+        {
+          "verse": "\"Whoever obeys me will not be put to shame, and those who serve me will never go astray.\"",
+          "ref": "Sirach 24:22"
+        },
+        {
+          "verse": "\"Now, children, listen to me; happy are they who keep my ways. Listen to instruction and grow wise, do not reject it!\"",
+          "ref": "Proverbs 8:32-33"
+        },
+        {
+          "verse": "\"Happy the one who listens to me, attending daily at my gates, keeping watch at my doorposts.\"",
+          "ref": "Proverbs 8:34"
+        },
+        {
+          "verse": "\"For whoever finds me finds life, and wins favor from the Lord.\"",
+          "ref": "Proverbs 8:35"
+        }
+      ]
+    }
+  ]
+}

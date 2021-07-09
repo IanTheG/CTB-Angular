@@ -9,21 +9,13 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
   },
-  {
-    path: 'glorious',
+  ...['glorious', 'joyful', 'sorrowful', 'luminous'].map((path) => ({
+    path,
     component: MysteryComponent,
-  },
+  })),
   {
-    path: 'joyful',
-    component: MysteryComponent,
-  },
-  {
-    path: 'sorrowful',
-    component: MysteryComponent,
-  },
-  {
-    path: 'luminous',
-    component: MysteryComponent,
+    path: 'final-prayers',
+    component: HomeComponent,
   },
 ]
 

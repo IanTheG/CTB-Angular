@@ -1,1 +1,5 @@
-<p>mystery works!</p>
+<div class="box">
+  <p>The {{ decade }} {{ mystery }} Mystery</p>
+  <!-- <a [routerLink]="nextUrl" [state]="{ decade: decade + 1 }">Continue</a> -->
+  <button (click)="nextDecade()" clickable>Continue</button>
+</div>

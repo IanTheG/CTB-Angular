@@ -1,5 +1,20 @@
+<!-- Pass the decade as a prop to update the current decade -->
+<app-decade [mystery]="mystery" [decade]="decade"></app-decade>
+
+<!-- End-of-decade prayers -->
 <div class="box">
-  <p>The {{ decade }} {{ mystery }} Mystery</p>
-  <!-- <a [routerLink]="nextUrl" [state]="{ decade: decade + 1 }">Continue</a> -->
+  <h2 style="background-color: transparent;">Glory Be</h2>
+  <div>
+    <p>Glory be to the Father, and to the Son, and to the Holy Spirit.</p>
+    <p>As it was in the beginning, is now, and ever shall be, world without end.
+    </p>
+    <p>Amen.</p>
+  </div>
+
+  <h2 style="background-color: transparent;">Fatima Prayer</h2>
+  <p>
+    O my Jesus, forgive us our sins, save us from the fires of hell. Lead all
+    souls to Heaven, especially those in most need of thy mercy.
+  </p>
   <button (click)="nextDecade()" clickable>Continue</button>
 </div>

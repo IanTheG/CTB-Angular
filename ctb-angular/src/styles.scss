@@ -4,8 +4,9 @@
 
 :root {
   --theme: #967db4;
-  --theme-invert: #6a5188;
-  --theme-trans: rgba(150, 125, 180, 0.85);
+  --theme-dark: #6a5188;
+  --theme-trans-light: rgba(150, 125, 180, 0.85);
+  --theme-trans-dark: rgba(106, 81, 136, 0.85);
 }
 
 html {
@@ -38,6 +39,49 @@ body {
   flex-direction: column;
   justify-content: space-between;
   scroll-snap-align: center;
+
+  > div {
+    background-color: var(--theme-trans-light);
+  }
+
+  &__focus {
+    justify-content: center;
+  }
+}
+
+// Global styles
+
+.bgcolor {
+  background-color: var(--theme-trans-light);
+}
+
+.div-line {
+  margin: 0.5rem 2rem;
+  height: 0.2rem;
+  background-color: var(--theme-dark);
+  border-radius: 0.5rem;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+
+  button {
+    background-color: #6a5188;
+    border: 0.25rem solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 0.8rem;
+    width: 50%;
+
+    &:hover,
+    &:active {
+      background-color: #967db4;
+    }
+  }
 }
 
 // Fonts
@@ -46,8 +90,8 @@ h1,
 h2,
 h3 {
   font-family: map-get($map: $fonts, $key: 'heading');
-  background-color: var(--theme);
-  border-bottom: 4px solid var(--theme-invert);
+  // background-color: var(--theme);
+  // border-bottom: 4px solid var(--theme-dark);
   margin: 0;
   padding: 1rem;
 }
@@ -57,7 +101,8 @@ h1 {
 h2 {
   font-size: 1.8rem;
 }
-h3 {
+h3,
+button {
   font-family: map-get($map: $fonts, $key: 'text');
 }
 

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core'
 import { RouterModule, Routes } from '@angular/router'
 import { DecadeComponent } from './components/decade/decade.component'
+import { FinalPrayersComponent } from './views/final-prayers/final-prayers.component'
 
 import { HomeComponent } from './views/home/home.component'
 import { MysteryComponent } from './views/mystery/mystery.component'
@@ -22,7 +23,7 @@ const routes: Routes = [
   })),
   {
     path: 'final-prayers',
-    component: HomeComponent,
+    component: FinalPrayersComponent,
   },
 ]
 

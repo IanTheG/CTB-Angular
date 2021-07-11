@@ -1,141 +1,182 @@
-<div class="box" id="hero">
-  <h1>Connecting The Beads</h1>
-  <div>
-    <p>
-      This mobile–friendly web app is a Rosary companion designed to help you
-      pray and meditate with scripture and religious artwork depicting the lives
-      of Jesus, Mary, Joseph, and the disciples.
-    </p>
-    <p>Add this app to your home screen to run it offline and full screen!</p>
+<main class="scroll-box bgcolor">
+  <div class="box box__focus" id="top-box">
+    <div>
+      <h1>Connecting The Beads</h1>
+      <div class="div-line"></div>
+      <section>
+        <p>
+          This mobile–friendly web app is a Rosary companion designed to help
+          you
+          pray and meditate with scripture and religious artwork depicting the
+          lives
+          of Jesus, Mary, Joseph, and the disciples.
+        </p>
+        <p>Add this app to your home screen to run it offline and full screen!
+        </p>
+      </section>
+    </div>
   </div>
-</div>
 
-<div class="box" id="praying-the-rosary">
-  <h2>Praying The Rosary</h2>
-  <div>
-    <p>
-      ‟The Rosary is a Scripture-based prayer. It begins with the Apostles'
-      Creed, which summarizes the great mysteries of the Catholic faith. The Our
-      Father, which introduces each mystery, is from the Gospels. The first part
-      of the Hail Mary is the angel's words announcing Christ's birth and
-      Elizabeth's greeting to Mary. St. Pius V officially added the second part
-      of the Hail Mary. The Mysteries of the Rosary center on the events of
-      Christ's life. There are four sets of Mysteries: Joyful, Sorrowful,
-      Glorious and––added by Saint John Paul II in 2002––the Luminous.”
-    </p>
-    <p>
-      ‟The repetition in the Rosary is meant to lead one into restful and
-      contemplative prayer related to each Mystery. The gentle repetition of the
-      words helps us to enter into the silence of our hearts, where Christ's
-      spirit dwells. The Rosary can be said privately or with a group.”
-    </p>
+  <div class="box box__focus" id="praying-the-rosary">
+    <div>
+      <h2>Praying The Rosary</h2>
+      <div class="div-line"></div>
+      <p>
+        ‟The Rosary is a Scripture-based prayer. It begins with the Apostles'
+        Creed, which summarizes the great mysteries of the Catholic faith. The
+        Our
+        Father, which introduces each mystery, is from the Gospels. The first
+        part
+        of the Hail Mary is the angel's words announcing Christ's birth and
+        Elizabeth's greeting to Mary. St. Pius V officially added the second
+        part
+        of the Hail Mary. The Mysteries of the Rosary center on the events of
+        Christ's life. There are four sets of Mysteries: Joyful, Sorrowful,
+        Glorious and––added by Saint John Paul II in 2002––the Luminous.”
+      </p>
+      <p>
+        ‟The repetition in the Rosary is meant to lead one into restful and
+        contemplative prayer related to each Mystery. The gentle repetition of
+        the
+        words helps us to enter into the silence of our hearts, where Christ's
+        spirit dwells. The Rosary can be said privately or with a group.”
+      </p>
+    </div>
   </div>
-</div>
 
-<div class="box" id="opening-prayers">
-  <h3>Opening Prayers</h3>
-  <div>
-    <p>Begin by making the <b>Sign of The Cross</b>.</p>
-    <p>In the name of The Father, The Son, and The Holy Spirit.</p>
-    <p>Amen.</p>
+  <div class="box box__focus" id="opening-prayers">
+    <div>
+      <h3 style="text-align: center;">Opening Prayers</h3>
+      <section>
+        <p>Begin by making the <b>Sign of The Cross</b>.</p>
+        <p>In the name of The Father, The Son, and The Holy Spirit.</p>
+        <p>Amen.</p>
+      </section>
+    </div>
   </div>
-</div>
 
-<div class="box" id="creed">
-  <h2>The Apostle's Creed</h2>
-  <div>
-    <p>Say the <b>Apostle's Creed</b>.</p>
-    <p style="white-space: pre-wrap">{{ creed }}</p>
+  <div class="box box__focus" id="creed">
+    <div>
+      <h2>The Apostle's Creed</h2>
+      <div class="div-line"></div>
+      <div>
+        <p>Say the <b>Apostle's Creed</b>.</p>
+        <p style="white-space: pre-wrap">{{ creed }}</p>
+      </div>
+    </div>
   </div>
-</div>
 
-<div class="box" id="our-father">
-  <h2>Our Father</h2>
-  <div>
-    <p>Say the <b>Our Father</b>.</p>
-    <p><em>For our Holy Father, Pope Francis.</em></p>
-    <p *ngFor="let line of our_father">{{ line }}</p>
+  <div class="box box__focus" id="our-father">
+    <div>
+      <h2>Our Father</h2>
+      <div class="div-line"></div>
+      <section>
+        <p>Say the <b>Our Father</b>.</p>
+        <p><em>For our Holy Father, Pope Francis.</em></p>
+        <p *ngFor="let line of our_father">{{ line }}</p>
+      </section>
+    </div>
   </div>
-</div>
 
-<div class="box" id="hail-mary">
-  <h2>Hail Mary</h2>
-  <div>
-    <p>Say three <b>Hail Mary's</b>.</p>
-    <p><em>For the increase of the virtues of Faith, Hope, and Charity.</em></p>
-    <p *ngFor="let line of hail_mary">{{ line }}</p>
+  <div class="box box__focus" id="hail-mary">
+    <div>
+      <h2>Hail Mary</h2>
+      <div class="div-line"></div>
+      <section>
+        <p>Say three <b>Hail Mary's</b>.</p>
+        <p>
+          <em>
+            For the increase of the virtues of Faith, Hope, and Charity.
+          </em>
+        </p>
+        <p *ngFor="let line of hail_mary">{{ line }}</p>
+      </section>
+    </div>
   </div>
-</div>
 
-<div class="box" id="glory-be">
-  <h2>Glory Be</h2>
-  <div>
-    <p>Say the <b>Glory Be</b>.</p>
-    <p *ngFor="let line of glory_be">{{ line }}</p>
+  <div class="box box__focus" id="glory-be">
+    <div>
+      <h2>Glory Be</h2>
+      <div class="div-line"></div>
+      <section>
+        <p>Say the <b>Glory Be</b>.</p>
+        <p *ngFor="let line of glory_be">{{ line }}</p>
+      </section>
+    </div>
   </div>
-</div>
 
-<div class="box" id="mystery-nav">
-  <h2>Mysteries</h2>
-  <div class="mystery-box">
-    <a routerLink="/glorious/1">
-      <h4>Glorious</h4>
-      <p [ngClass]="currentDay === 0 ? 'highlight' : ''">Sunday</p>
-      <p [ngClass]="currentDay === 3 ? 'highlight' : ''">Wednesday</p>
-    </a>
-    <a routerLink="/joyful/1">
-      <h4>Joyful</h4>
-      <p [ngClass]="currentDay === 1 ? 'highlight' : ''">Monday</p>
-      <p [ngClass]="currentDay === 6 ? 'highlight' : ''">Saturday</p>
-    </a>
-    <a routerLink="/sorrowful/1">
-      <h4>Sorrowful</h4>
-      <p [ngClass]="currentDay === 2 ? 'highlight' : ''">Tuesday</p>
-      <p [ngClass]="currentDay === 5 ? 'highlight' : ''">Friday</p>
-    </a>
-    <a routerLink="/luminous/1">
-      <h4>Luminous</h4>
-      <p [ngClass]="currentDay === 4 ? 'highlight' : ''">Thursday</p>
-    </a>
+  <div class="box box__focus" id="mystery-nav">
+    <div class="mystery-box">
+      <h2>Mysteries</h2>
+      <!-- <div class="div-line"></div> -->
+      <div class="link-wrapper">
+        <a routerLink="/glorious/1">
+          <h4>Glorious</h4>
+          <p [ngClass]="currentDay === 0 ? 'highlight' : ''">Sunday</p>
+          <p [ngClass]="currentDay === 3 ? 'highlight' : ''">Wednesday</p>
+        </a>
+      </div>
+      <div class="link-wrapper">
+        <a routerLink="/joyful/1">
+          <h4>Joyful</h4>
+          <p [ngClass]="currentDay === 1 ? 'highlight' : ''">Monday</p>
+          <p [ngClass]="currentDay === 6 ? 'highlight' : ''">Saturday</p>
+        </a>
+      </div>
+      <div class="link-wrapper">
+        <a routerLink="/sorrowful/1">
+          <h4>Sorrowful</h4>
+          <p [ngClass]="currentDay === 2 ? 'highlight' : ''">Tuesday</p>
+          <p [ngClass]="currentDay === 5 ? 'highlight' : ''">Friday</p>
+        </a>
+      </div>
+      <div class="link-wrapper">
+        <a routerLink="/luminous/1">
+          <h4>Luminous</h4>
+          <p [ngClass]="currentDay === 4 ? 'highlight' : ''">Thursday</p>
+        </a>
+      </div>
+    </div>
   </div>
-</div>
 
-<div class="box" id="contact">
-  <div>
-    <h2>Contact Info</h2>
-    <p>
-      If you have any issues or encounter any bugs with <em>Connecting The
-        Beads</em> or would like to contact me,
-      <a href="https://www.facebook.com/profile.php?id=100013351997843"
-        target="_blank" rel="noreferrer" style="margin: 0;">
-        message me on Facebook.
+  <div class="box bgcolor" id="contact">
+    <div>
+      <h2>Contact Info</h2>
+      <div class="div-line"></div>
+      <p>
+        If you have any issues or encounter any bugs with <em>Connecting The
+          Beads</em> or would like to contact me,
+        <a href="https://www.facebook.com/profile.php?id=100013351997843"
+          target="_blank" rel="noreferrer" style="margin: 0;">
+          message me on Facebook.
+        </a>
+      </p>
+      <p>
+        This web app is created by Ian Goodwin, a web developer, jazz
+        saxophonist, Catholic, and dreamer.
+      </p>
+      <p>
+        Note, this web app requires a modern smartphone and updated web browser
+        (at least iOS 12.2 or Chrome 51 on Android).
+      </p>
+    </div>
+    <div>
+      <p>Bible verses are quoted from the Catholic Public Domain Version.</p>
+      <a href="https://thenounproject.com/term/rosary/329724/" target="_blank"
+        rel="noreferrer" style="margin: 0 1rem;">
+        Rosary favicon by Tivi Lupercio Ordoñez
       </a>
-    </p>
-    <p>
-      This web app is created by Ian Goodwin, a web developer, jazz
-      saxophonist, Catholic, and dreamer.
-    </p>
-    <p>
-      Note, this web app requires a modern smartphone and updated web browser
-      (at least iOS 12.2 or Chrome 51 on Android).
-    </p>
+      <br />
+      <a href="https://www.usccb.org/how-to-pray-the-rosary" target="_blank"
+        rel="noreferrer" style="margin: 0 1rem;">
+        How to Pray the Rosary from the USCCB
+      </a>
+      <p>
+        The 20 Mysteries of The Rosary - Bellazzi
+        Copyright 2021 - Used with permission
+        Fratelli Bonella - Milan, Italy
+      </p>
+      <h3>Copyright &copy; Ian G 2021</h3>
+    </div>
   </div>
-  <div>
-    <h3>Copyright &copy; Ian G 2021</h3>
-    <p>Bible verses are quoted from the Catholic Public Domain Version.</p>
-    <a href="https://thenounproject.com/term/rosary/329724/" target="_blank"
-      rel="noreferrer" style="margin: 0 1rem;">
-      Rosary favicon by Tivi Lupercio Ordoñez
-    </a>
-    <br />
-    <a href="https://www.usccb.org/how-to-pray-the-rosary" target="_blank"
-      rel="noreferrer" style="margin: 0 1rem;">
-      How to Pray the Rosary from the USCCB
-    </a>
-    <p>
-      The 20 Mysteries of The Rosary - Bellazzi
-      Copyright 2021 - Used with permission
-      Fratelli Bonella - Milan, Italy
-    </p>
-  </div>
-</div>
+</main>

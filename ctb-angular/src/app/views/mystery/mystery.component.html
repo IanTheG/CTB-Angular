@@ -1,20 +1,36 @@
-<!-- Pass the decade as a prop to update the current decade -->
-<app-decade [mystery]="mystery" [decade]="decade"></app-decade>
+<main class="scroll-box">
 
-<!-- End-of-decade prayers -->
-<div class="box">
-  <h2 style="background-color: transparent;">Glory Be</h2>
-  <div>
-    <p>Glory be to the Father, and to the Son, and to the Holy Spirit.</p>
-    <p>As it was in the beginning, is now, and ever shall be, world without end.
-    </p>
-    <p>Amen.</p>
+  <!-- Pass the decade as a prop to update the current decade -->
+  <app-decade [mystery]="mystery" [decade]="decade"></app-decade>
+
+  <!-- End-of-decade prayers -->
+  <div class="box box__focus bgcolor">
+    <div>
+      <div>
+        <h2>Glory Be</h2>
+        <div class="div-line"></div>
+        <div>
+          <p>Glory be to the Father, and to the Son, and to the Holy Spirit.</p>
+          <p>
+            As it was in the beginning, is now, and ever shall be, world without
+            end.
+          </p>
+          <p>Amen.</p>
+        </div>
+      </div>
+
+      <div>
+        <h2>Fatima Prayer</h2>
+        <div class="div-line"></div>
+        <p>
+          O my Jesus, forgive us our sins, save us from the fires of hell. Lead
+          all
+          souls to Heaven, especially those in most need of thy mercy.
+        </p>
+      </div>
+      <div class="btn-box">
+        <button (click)="nextDecade()" clickable>Continue</button>
+      </div>
+    </div>
   </div>
-
-  <h2 style="background-color: transparent;">Fatima Prayer</h2>
-  <p>
-    O my Jesus, forgive us our sins, save us from the fires of hell. Lead all
-    souls to Heaven, especially those in most need of thy mercy.
-  </p>
-  <button (click)="nextDecade()" clickable>Continue</button>
-</div>
+</main>

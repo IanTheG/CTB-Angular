@@ -1,16 +1,19 @@
 <!-- Intro to decade -->
-<div id="top-box" class="box">
-  <h3>The {{ num[decade - 1] }} {{ mystery | titlecase }} Mystery</h3>
-  <p>{{ decadeData.name }}</p>
-  <p>Fruits of the mystery: {{ decadeData.fruits }}</p>
+<div class="box box__focus bgcolor" id="top-box">
   <div>
+    <div class="decade">
+      <h1>The {{ num[decade - 1] }} {{ mystery | titlecase }} Mystery</h1>
+      <h2>{{ decadeData.name }}</h2>
+      <div class="div-line"></div>
+      <p><i>Fruits of the mystery: {{ decadeData.fruits }}</i></p>
+    </div>
     <p *ngFor="let line of our_father">{{ line }}</p>
   </div>
 </div>
 
-<div class="box" *ngFor="let scene of decadeData.scenes; let i=index">
+<div class="box scenes" *ngFor="let scene of decadeData.scenes; let i=index">
   <div></div>
-  <div class="scene">
+  <section class="scene">
     <div class="number">
       <p>{{ i + 1 }}</p>
     </div>
@@ -18,5 +21,5 @@
       <p>{{ scene.verse }}</p>
       <p><i>{{ scene.ref }}</i></p>
     </div>
-  </div>
+  </section>
 </div>

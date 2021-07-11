@@ -24,7 +24,6 @@ export class MysteryComponent implements OnInit {
   nextDecade() {
     if (Number(this.route[2]) < 5) {
       this.router.navigateByUrl(`${this.mystery}/${this.decade + 1}`)
-      document.getElementById('top-box')?.scrollIntoView(true)
     } else {
       this.router.navigateByUrl('final-prayers')
     }

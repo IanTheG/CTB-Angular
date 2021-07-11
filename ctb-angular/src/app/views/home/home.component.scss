@@ -5,31 +5,47 @@
 .mystery-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
+  justify-content: center;
+  // flex: 1;
 
-  > a {
-    flex: 1;
-    margin: 0;
-    cursor: pointer;
-    color: inherit;
-    text-decoration: none;
+  .link-wrapper {
+    display: flex;
+    background-color: var(--theme-dark);
+    border: 2px solid var(--theme-dark);
+    border-radius: 10px;
+    margin: 0 0.5rem 0.5rem 0.5rem;
 
-    h4 {
-      font-family: map-get($map: $fonts, $key: 'heading');
-      font-size: 1.8rem;
-      margin: 0.5rem 1rem 0 2rem;
-    }
+    a {
+      position: relative;
+      left: 4px;
+      top: -4px;
 
-    p {
-      width: 50%;
+      flex: 1;
       margin: 0;
-      padding: 0.5rem 0 0.5rem 3rem;
+      cursor: pointer;
+      color: inherit;
+      text-decoration: none;
+      background-color: var(--theme);
+      border: 2px solid var(--theme-dark);
+      border-radius: 10px;
+
+      h4 {
+        font-family: map-get($map: $fonts, $key: 'heading');
+        font-size: 1.8rem;
+        margin: 0.2rem 2rem 0 2rem;
+        // padding: 0.5rem;
+      }
+
+      p {
+        width: 50%;
+        margin: 0;
+        padding: 0.5rem 0 0.5rem 3rem;
+      }
     }
   }
 }
 
 .highlight {
-  background-color: var(--theme-invert);
-  color: white;
+  background-color: var(--theme-dark);
+  color: whitesmoke;
 }

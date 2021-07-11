@@ -38,10 +38,11 @@ export class DecadeComponent implements OnInit, OnChanges {
       case 'default':
         return
     }
-    this.decadeData = this.mysteryData.decades[0]
+    this.decadeData = this.mysteryData.decades[this.decade - 1]
   }
 
   ngOnChanges(): void {
+    document.getElementById('top-box')?.scrollIntoView(true)
     this.decadeData = this.mysteryData.decades[this.decade - 1]
   }
 }

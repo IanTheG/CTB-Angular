@@ -16,5 +16,7 @@ export class HomeComponent implements OnInit {
 
   currentDay: number = new Date().getDay()
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    document.getElementById('top-box')?.scrollIntoView(true)
+  }
 }

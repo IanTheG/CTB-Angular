@@ -1,15 +1,47 @@
-import { Component, OnInit } from '@angular/core'
-import { Router } from '@angular/router'
+import { Component, OnChanges, OnInit } from '@angular/core'
+import { ActivationEnd, Event, Router } from '@angular/router'
 
 @Component({
   selector: 'app-image-container',
   templateUrl: './image-container.component.html',
   styleUrls: ['./image-container.component.scss'],
 })
-export class ImageContainerComponent implements OnInit {
-  constructor(private router: Router) {}
+export class ImageContainerComponent implements OnInit, OnChanges {
+  constructor(private router: Router) {
+    // Subscribes to changes in the router url, updates state
+    this.router.events.subscribe((event: Event) => {
+      // Use ChildActivationEnd or ActivationEnd so code is only executed once
+      if (event instanceof ActivationEnd) {
+        // Load image for specific mystery and decade
+        if (this.router.url !== '/' && this.router.url !== '/final-prayers') {
+          this.route = this.router.url.split('/')
+          this.mystery = this.route[1]
+          this.decade = Number(this.route[2])
+
+          this.image = {
+            url: `https://connectingthebeads-images.s3.amazonaws.com/${this.mystery}/${this.decade}${this.size}.jpg`,
+            alt: `${this.mystery} ${this.decade}`,
+          }
+        }
+        // Load image for home page
+        else {
+          this.image = this.homeImage
+        }
+      }
+    })
+  }
+
+  // Local state
+  route: string[] = []
+  mystery: string = ''
+  decade: number = 1
+  size: string = 'S'
 
   image = {
+    url: '',
+    alt: '',
+  }
+  homeImage = {
     url: '',
     alt: '',
   }
@@ -25,13 +57,17 @@ export class ImageContainerComponent implements OnInit {
     else if (currentDay === 2 || currentDay === 5) dailyMystery = 'sorrowful'
     else if (currentDay === 4) dailyMystery = 'luminous'
 
-    let size = 'S'
-    if (window.innerHeight > 900) size = 'M'
-    if (window.innerHeight > 1200) size = 'L'
+    if (window.innerHeight > 900) this.size = 'M'
+    if (window.innerHeight > 1200) this.size = 'L'
 
     this.image = {
-      url: `https://connectingthebeads-images.s3.amazonaws.com/${dailyMystery}/${randomImageNumber}${size}.jpg`,
+      url: `https://connectingthebeads-images.s3.amazonaws.com/${dailyMystery}/${randomImageNumber}${this.size}.jpg`,
       alt: `${dailyMystery} ${randomImageNumber}`,
     }
+    this.homeImage = this.image
+  }
+
+  ngOnChanges(): void {
+    console.log(this.decade)
   }
 }

@@ -8,7 +8,8 @@ import { MysteryComponent } from './views/mystery/mystery.component'
 import { DecadeComponent } from './components/decade/decade.component'
 import { FinalPrayersComponent } from './views/final-prayers/final-prayers.component'
 import { LandscapeMobileComponent } from './views/landscape-mobile/landscape-mobile.component'
-import { LandscapeDesktopComponent } from './views/landscape-desktop/landscape-desktop.component'
+import { LandscapeDesktopComponent } from './views/landscape-desktop/landscape-desktop.component';
+import { ImageContainerComponent } from './components/image-container/image-container.component'
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { LandscapeDesktopComponent } from './views/landscape-desktop/landscape-d
     FinalPrayersComponent,
     LandscapeMobileComponent,
     LandscapeDesktopComponent,
+    ImageContainerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

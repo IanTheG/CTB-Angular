@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import { Router } from '@angular/router'
+import { ActivationEnd, Event, Router } from '@angular/router'
 
 @Component({
   selector: 'app-mystery',
@@ -9,10 +9,13 @@ import { Router } from '@angular/router'
 export class MysteryComponent implements OnInit {
   constructor(private router: Router) {
     // Subscribes to changes in the router url, updates state
-    this.router.events.subscribe(() => {
-      this.route = this.router.url.split('/')
-      this.mystery = this.route[1]
-      this.decade = Number(this.route[2])
+    this.router.events.subscribe((event: Event) => {
+      // Use ChildActivationEnd or ActivationEnd so code is only executed once
+      if (event instanceof ActivationEnd) {
+        this.route = this.router.url.split('/')
+        this.mystery = this.route[1]
+        this.decade = Number(this.route[2])
+      }
     })
   }
 

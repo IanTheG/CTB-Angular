@@ -1,12 +1,7 @@
-.image-container {
-  display: flex;
-  justify-content: center;
-
-  img {
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    z-index: -1;
-    object-fit: cover;
-  }
+.image-container img {
+  object-fit: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
 }

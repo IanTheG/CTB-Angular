@@ -18,12 +18,14 @@ $purple-light: #967db4;
 $purple-dark: #6a5188;
 $purple-darker: #3b2d4d;
 $breakpoints: (
-  'sm': 300px,
   // iPhone SE
-  'md': 370px,
+  'sm': 300px,
   // iPhone 8
-  'lg': 410px,
+  'md': 370px,
   // iPhone 8+
+  'lg': 410px,
+  // iPad
   'tablet': 768px,
-  'desktop': 1025px,
+  // iPad Pro
+  'desktop': 1024px
 );

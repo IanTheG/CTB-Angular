@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { ActivationEnd, Event, Router } from '@angular/router'
+import { AnimationsService } from 'src/app/services/animations.service'
 
 @Component({
   selector: 'app-mystery',
@@ -7,7 +8,7 @@ import { ActivationEnd, Event, Router } from '@angular/router'
   styleUrls: ['./mystery.component.scss'],
 })
 export class MysteryComponent implements OnInit {
-  constructor(private router: Router) {
+  constructor(private router: Router, private animations: AnimationsService) {
     // Subscribes to changes in the router url, updates state
     this.router.events.subscribe((event: Event) => {
       // Use ChildActivationEnd or ActivationEnd so code is only executed once
@@ -33,6 +34,7 @@ export class MysteryComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    // this.animations.fadeBoxes()
     document.getElementById('top-box')?.scrollIntoView(true)
   }
 }

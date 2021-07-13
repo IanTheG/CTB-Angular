@@ -1,4 +1,4 @@
-import { Component, OnChanges, OnInit } from '@angular/core'
+import { Component, OnInit } from '@angular/core'
 import { ActivationEnd, Event, Router } from '@angular/router'
 
 @Component({
@@ -25,7 +25,7 @@ export class ImageContainerComponent implements OnInit {
           }
         }
         // Load image for home page
-        else {
+        else if (this.router.url === '/') {
           this.image = this.homeImage
         }
       }

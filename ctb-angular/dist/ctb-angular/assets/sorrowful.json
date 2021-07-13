@@ -1,0 +1,246 @@
+{
+  "id": "sorrowful",
+  "name": "Sorrowful",
+  "decades": [
+    {
+      "id": 1,
+      "name": "The Agony in the Garden",
+      "number": "First",
+      "fruits": "contrition, conformity to God's will",
+      "scenes": [
+        {
+          "verse": "Jesus came with them to a place called Gethsemane, and he said to his disciples, \"Sit here while I go over there and pray.\"",
+          "ref": "Matthew 26:36"
+        },
+        {
+          "verse": "Then he said to them, \"My soul is sorrowful even to death. Remain here and keep watch with me.\"",
+          "ref": "Matthew 26:38"
+        },
+        {
+          "verse": "He advanced a little and fell prostrate in prayer, saying, \"My Father, if it is possible, let this cup pass from me; yet, not as I will, but as you will.\"",
+          "ref": "Matthew 26:39"
+        },
+        {
+          "verse": "And to strengthen him an angel from heaven appeared to him.",
+          "ref": "Luke 22:43"
+        },
+        {
+          "verse": "He was in such agony and he prayed so fervently that his sweat became like drops of blood falling on the ground.",
+          "ref": "Luke 22:44"
+        },
+        {
+          "verse": "My heart pounds within me; death’s terrors fall upon me. Fear and trembling overwhelm me; shuddering sweeps over me.",
+          "ref": "Psalm 55:5-6"
+        },
+        {
+          "verse": "Then he came back to his disciples and found them sleeping, and he said, \"So you had not the strength to keep awake with me one hour?\"",
+          "ref": "Matthew 26:40"
+        },
+        {
+          "verse": "\"You should be awake, and praying not to be put to the test. The spirit is willing, but the flesh is weak.\"",
+          "ref": "Matthew 26:41"
+        },
+        {
+          "verse": "While he was still speaking, Judas, one of the Twelve, arrived, accompanied by a large crowd. Immediately he went over to Jesus and said, \"Hail, Rabbi!\" and he kissed him.",
+          "ref": "Matthew 26:47, 49"
+        },
+        {
+          "verse": "Jesus answered him, \"Friend, do what you have come for.\" Then stepping forward they laid hands on Jesus and arrested him.",
+          "ref": "Matthew 26:50"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Scourging at the Pillar",
+      "number": "Second",
+      "fruits": "purification, sacrifice",
+      "scenes": [
+        {
+          "verse": "They bound Jesus, led him away, and handed him over to Pilate. Pilate questioned him, \"Are you the king of the Jews?\"",
+          "ref": "Mark 15:1-2"
+        },
+        {
+          "verse": "Jesus said, \"You say so.\" And when he was accused by the chief priests and elders, he made no answer.",
+          "ref": "Matthew 27:11b-12"
+        },
+        {
+          "verse": "Again Pilate questioned him, \"Have you no answer? See how many things they accuse you of.\" Jesus gave him no further answer, so that Pilate was amazed.",
+          "ref": "Mark 15:4-5"
+        },
+        {
+          "verse": "Pilate then addressed the chief priests and the crowds, \"I find this man not guilty.\"",
+          "ref": "Luke 23:4"
+        },
+        {
+          "verse": "Then Pilate took Jesus away and had him scourged.",
+          "ref": "John 19:1"
+        },
+        {
+          "verse": "He was spurned and avoided by men, a man of suffering, knowing pain.",
+          "ref": "Isaiah 53:3"
+        },
+        {
+          "verse": "Yet it was our pain that he bore, our sufferings he endured.",
+          "ref": "Isaiah 53:4"
+        },
+        {
+          "verse": "But he was pierced for our sins, crushed for our iniquity. He bore the punishment that makes us whole, by his wounds we were healed",
+          "ref": "Isaiah 53:5"
+        },
+        {
+          "verse": "Like a lamb led to slaughter, or a sheep silent before shearers, he did not open his mouth.",
+          "ref": "Isaiah 53:7"
+        },
+        {
+          "verse": "Because he surrendered himself to death, was counted among the transgressors. Bore the sins of many, and interceded for the transgressors.",
+          "ref": "Isaiah 53:12"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Crowning with Thorns",
+      "number": "Third",
+      "fruits": "moral courage",
+      "scenes": [
+        {
+          "verse": "The Pilate took some water, washed his hands in front of the crowds and said, \"I am innocent of this man's blood. It is your concern.\"",
+          "ref": "Matthew 27:24"
+        },
+        {
+          "verse": "The soldiers led him away inside the palace, that is, the praetorium. They stripped off his clothes and threw a scarlet military cloak about him.",
+          "ref": "Mark 15:16, Matthew 27:28"
+        },
+        {
+          "verse": "Weaving a crown out of thorns, they placed it on his head, and a reed in his right hand.",
+          "ref": "Matthew 27:29a"
+        },
+        {
+          "verse": "And kneeling before him, they mocked him, saying, \"Hail, King of the Jews!\" They spat upon him and took the reed and kept striking him on the head.",
+          "ref": "Matthew 27:29b-30"
+        },
+        {
+          "verse": "So Jesus came out, wearing the crown of thorns and the purple cloak.",
+          "ref": "John 19:5"
+        },
+        {
+          "verse": "When the chief priests and the guards saw him they cried out, \"Crucify him, crucify him!\"",
+          "ref": "John 19:6"
+        },
+        {
+          "verse": "All together they shouted out, \"Away with this man! Release Barabbas to us.\"",
+          "ref": "Luke 23:18"
+        },
+        {
+          "verse": "Pilate said to them, \"Why? What evil has he done?\" They only shouted the louder, \"Crucify him!\"",
+          "ref": "Mark 15:14"
+        },
+        {
+          "verse": "\"Shall I crucify your king?\" The chief priests answered, \"We have no king but Caesar.\"",
+          "ref": "John 19:15"
+        },
+        {
+          "verse": "So he released the man who had been imprisoned for rebellion and murder, for whom they asked, and he handed Jesus over to them to deal with as they wished.",
+          "ref": "Luke 23:25"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Carrying of The Cross",
+      "number": "Fourth",
+      "fruits": "patience",
+      "scenes": [
+        {
+          "verse": "\"Whoever wishes to come after me must deny himself, take up his cross, and follow me.\"",
+          "ref": "Matthew 16:24"
+        },
+        {
+          "verse": "\"For whoever wishes to save his life will lose it, but whoever loses his life for my sake will find it.\"",
+          "ref": "Matthew 16:25"
+        },
+        {
+          "verse": "So they took Jesus, and carrying the cross himself he went out to what is called the Place of the Skull, in Hebrew, Golgotha.",
+          "ref": "John 19:17"
+        },
+        {
+          "verse": "They pressed into service a passer-by, Simon, a Cyrenian, who was coming in from the country, to carry his cross.",
+          "ref": "Mark 15:21"
+        },
+        {
+          "verse": "A large crowd of people followed Jesus, including many women who mourned and lamented him.",
+          "ref": "John 19:27"
+        },
+        {
+          "verse": "Jesus turned to them and said, \"Daughters of Jerusalem, do not weep for me; weep instead for yourselves and for your children.\"",
+          "ref": "Luke 23:28"
+        },
+        {
+          "verse": "\"Come to me, all you who labor and are burdened, and I will give you rest.\"",
+          "ref": "Matthew 11:28"
+        },
+        {
+          "verse": "\"Take my yoke upon you and learn from me, for I am meek and humble of heart; and you will find rest for yourselves.\" ",
+          "ref": "Matthew 11:29"
+        },
+        {
+          "verse": "He emptied himself, taking the form of a slave, coming in human likeness, and found human in appearance.",
+          "ref": "Philippians 2:7"
+        },
+        {
+          "verse": "He humbled himself, becoming obedient to death, even death on a cross.",
+          "ref": "Philippians 2:8"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Crucifixion",
+      "number": "Fifth",
+      "fruits": "salvation, perseverance in faith, forgiveness",
+      "scenes": [
+        {
+          "verse": "When they came to the place called the Skull, they crucified him and the criminals there, one on his right, the other on his left.",
+          "ref": "Luke 23:33"
+        },
+        {
+          "verse": "Then Jesus said, \"Father, forgive them, they know not what they do.\" They divided his garments by casting lots.",
+          "ref": "Luke 23:34"
+        },
+        {
+          "verse": "One of the criminals with him said, \"Jesus, remember me when you come into your kingdom.\"",
+          "ref": "Luke 23:42"
+        },
+        {
+          "verse": "He replied to him, \"Amen, I say to you, today you will be with me in Paradise.\"",
+          "ref": "Luke 23:43"
+        },
+        {
+          "verse": "Then Jesus saw his mother and the disciple there whom he loved, he said to his mother, \"Woman, behold, your son.\"",
+          "ref": "John 19:26"
+        },
+        {
+          "verse": "Then he said to the disciple, \"Behold, your mother.\" And from that hour the disciple took her into his home.",
+          "ref": "John 19:27"
+        },
+        {
+          "verse": "Darkness came over the whole land until three in the afternoon because of an eclipse of the sun. Then the veil of the temple was torn down the middle.",
+          "ref": "Luke 44-45"
+        },
+        {
+          "verse": "Jesus cried out in a loud voice, \"My God, my God, why have you forsaken me?\"",
+          "ref": "Mark 15:34, Psalm 22:2"
+        },
+        {
+          "verse": "\"Father, into your hands I commend my spirit\"; and when he had said this he breathed his last.",
+          "ref": "Luke 23:46"
+        },
+        {
+          "verse": "When the centurion who stood facing him saw how he breathed his last he said, \"Truly this man was the Son of God!\"",
+          "ref": "Mark 15:39"
+        }
+      ]
+    }
+  ]
+}

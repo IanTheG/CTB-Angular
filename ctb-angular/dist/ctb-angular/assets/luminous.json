@@ -1,0 +1,246 @@
+{
+  "id": "luminous",
+  "name": "Luminous",
+  "decades": [
+    {
+      "id": 1,
+      "name": "The Baptism of The Lord",
+      "number": "First",
+      "fruits": "openness to the Holy Spirit",
+      "scenes": [
+        {
+          "verse": "John the Baptist appeared in the desert proclaiming a baptism of repentance for the forgiveness of sins",
+          "ref": "Mark 1:4"
+        },
+        {
+          "verse": "A voice of one crying out in the desert, \"Prepare the way of the Lord, make straight his paths.\"",
+          "ref": "Luke 3:4b, Isaiah 40:3"
+        },
+        {
+          "verse": "Now the people were filled with expectation, and all were asking in their hearts whether John might be the Messiah.",
+          "ref": "Luke 3:15"
+        },
+        {
+          "verse": "\"I am baptizing you with water, but one mightier than I is coming. I am not worthy to loosen the thongs of his sandals. He will baptize you with the holy Spirit and fire.\"",
+          "ref": "Luke 3:16"
+        },
+        {
+          "verse": "The next day he saw Jesus coming toward him and said, \"Behold, the Lamb of God, who takes away the sin of the world.\"",
+          "ref": "John 1:29"
+        },
+        {
+          "verse": "John tried to prevent him, saying, \"I need to be baptized by you, and yet you are coming to me?\"",
+          "ref": "Matthew 3:14"
+        },
+        {
+          "verse": "Jesus said to him in reply, \"Allow it now, for thus it is fitting for us to fulfill all righteousness.\" Then he allowed him.",
+          "ref": "Matthew 3:15"
+        },
+        {
+          "verse": "After all the people had been baptized and Jesus also had been baptized and was praying, heaven was opened.",
+          "ref": "Luke 3:21"
+        },
+        {
+          "verse": "And the holy Spirit descended upon him in bodily form like a dove.",
+          "ref": "Luke 3:22a"
+        },
+        {
+          "verse": "And a voice came from heaven, \"You are my beloved Son; with you I am well pleased.\"",
+          "ref": "Luke 3:22b"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Wedding at Cana",
+      "number": "Second",
+      "fruits": "to Jesus through Mary",
+      "scenes": [
+        {
+          "verse": "On the third day there was a wedding in Cana in Galilee, and the mother of Jesus was there. Jesus and his disciples were also invited to the wedding.",
+          "ref": "John 2:1-2"
+        },
+        {
+          "verse": "When the wine ran short, the mother of Jesus said to him, \"They have no wine.\"",
+          "ref": "John 2:3"
+        },
+        {
+          "verse": "Jesus said to her, \"Woman, how does your concern affect me? My hour has not yet come\"",
+          "ref": "John 2:4"
+        },
+        {
+          "verse": "His mother said to the servers, \"Do whatever he tells you.\" So he told them, \"Fill the jars with water.\"",
+          "ref": "John 2:5, 7"
+        },
+        {
+          "verse": "Then he told them, \"Draw some out now and take it to the headwaiter.\" The headwaiter called the bridegroom and said, \"You have kept the good wine until now.\"",
+          "ref": "John 2:8, 10"
+        },
+        {
+          "verse": "Jesus did this as the beginning of his signs in Cana in Galilee and so revealed his glory, and his disciples began to believe in him.",
+          "ref": "John 2:11"
+        },
+        {
+          "verse": "He set out from there and went into the district of Judea. The Pharisees approached and asked, \"Is it lawful for a husband to divorce his wife?\"",
+          "ref": "Mark 10:1-2"
+        },
+        {
+          "verse": "Jesus said, \"From the beginning of creation, God made them male and female. For this reason a man shall leave his father and mother and be joined to his wife.\"",
+          "ref": "Mark 10:6-7"
+        },
+        {
+          "verse": "\"And the two shall become one flesh. So they are no longer two but one flesh. Therefore what God has joined together, no human being must separate.\"",
+          "ref": "Mark 10:8, Genesis 2:24"
+        },
+        {
+          "verse": "Husbands, love your wives, even as Christ loved the church and handed himself over for her. Each one of you should love his wife as himself, and the wife should respect her husband.",
+          "ref": "Ephesians 5:25, 33"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Proclamation of The Kingdom",
+      "number": "Third",
+      "fruits": "repentance, trust in God",
+      "scenes": [
+        {
+          "verse": "He began to teach them, saying. \"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\"",
+          "ref": "Matthew 5:3"
+        },
+        {
+          "verse": "\"Blessed are they who mourn, for they will be comforted.\"",
+          "ref": "Matthew 5:4"
+        },
+        {
+          "verse": "\"Blessed are the meek, for they will inherit the land.\"",
+          "ref": "Matthew 5:5"
+        },
+        {
+          "verse": "\"Blessed are they two hunger and thirst for righteousness, for they will be satisfied.\"",
+          "ref": "Matthew 5:6"
+        },
+        {
+          "verse": "\"Blessed are the merciful, for they will be shown mercy.\"",
+          "ref": "Matthew 5:7"
+        },
+        {
+          "verse": "\"Blessed are the clean of heart, for they will see God.\"",
+          "ref": "Matthew 5:8"
+        },
+        {
+          "verse": "\"Blessed are the peacemakers, for they will be called children of God.\"",
+          "ref": "Matthew 5:9"
+        },
+        {
+          "verse": "\"Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven.\"",
+          "ref": "Matthew 5:10"
+        },
+        {
+          "verse": "\"Blessed are you when they insult you and persecute you and utter every kind of evil against you falsely because of me.\"",
+          "ref": "Matthew 5:11"
+        },
+        {
+          "verse": "\"Rejoice and be glad, for your reward will be great in heaven. Thus they persecuted the prophets who were before you.\"",
+          "ref": "Matthew 5:12"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Transfiguration",
+      "number": "Fourth",
+      "fruits": "desire for holiness",
+      "scenes": [
+        {
+          "verse": "Jesus took Peter, John, and James and went up the mountain to pray.",
+          "ref": "Luke 9:28"
+        },
+        {
+          "verse": "And he was transfigured before them; his face shone like the sun and his clothes became white as light.",
+          "ref": "Matthew 17:2"
+        },
+        {
+          "verse": "And behold, two men were conversing with him, Moses and Elijah, who appeared in glory and spoke of his exodus that he was going to accomplish in Jerusalem.",
+          "ref": "Luke 9:30-31"
+        },
+        {
+          "verse": "Then Peter said to Jesus in reply, \"Rabbi, it is good that we are here! Let us make three tents: one for you, one for Moses, and one for Elijah.\"",
+          "ref": "Mark 9:5"
+        },
+        {
+          "verse": "While he was still speaking, a cloud came and cast a shadow over them, and they became frightened when they entered the cloud.",
+          "ref": "Luke 9:34"
+        },
+        {
+          "verse": "Then from the cloud came a voice that said, \"This is my beloved Son, with whom I am well pleased; listen to him.\"",
+          "ref": "Matthew 17:5"
+        },
+        {
+          "verse": "When the disciples heard this, they fell prostrate and were very much afraid.",
+          "ref": "Matthew 17:6"
+        },
+        {
+          "verse": "But Jesus came and touched them, saying, \"Rise, and do not be afraid.\"",
+          "ref": "Matthew 17:7"
+        },
+        {
+          "verse": "And when the disciples raised their eyes, they saw no one else but Jesus alone.",
+          "ref": "Matthew 17:8"
+        },
+        {
+          "verse": "As they were coming down from the mountain, he charged them not to relate what they had seen to anyone, except when the Son of Man had risen from the dead.",
+          "ref": "Mark 9:9"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Institution of The Eucharist",
+      "number": "Fifth",
+      "fruits": "adoration",
+      "scenes": [
+        {
+          "verse": "Jesus said to them, \"I am the bread of life; whoever comes to me will never hunger, and whoever believes in me will never thirst.\"",
+          "ref": "John 6:35"
+        },
+        {
+          "verse": "\"The Jews quarreled among themselves, saying, \"How can this man give us his flesh to eat?\"",
+          "ref": "John 6:52"
+        },
+        {
+          "verse": "\"Unless you eat the flesh of the Son of Man and drink his blood, you do not have life within you. For my flesh is true food, and my blood is true drink.\"",
+          "ref": "John 6:53"
+        },
+        {
+          "verse": "As a result of this, many of his disciples returned to their former way of life and no longer accompanied him.",
+          "ref": "John 6:66"
+        },
+        {
+          "verse": "Jesus then said to the Twelve, \"Do you also want to leave?\"",
+          "ref": "John 6:67"
+        },
+        {
+          "verse": "Simon Peter answered him, \"Master, to whom shall we go? You have the words of eternal life. We have come to believe and are convinced that you are the Holy One of God.\"",
+          "ref": "John 6:68-69"
+        },
+        {
+          "verse": "While they were eating, Jesus took bread, said the blessing, broke it, and giving it to his disciples said, \"Take and eat; this is my body.\"",
+          "ref": "Matthew 26:26a"
+        },
+        {
+          "verse": "Then he took a cup, gave thanks, and gave it to them, saying, \"Drink from it, all of you.\"",
+          "ref": "Matthew 26:27"
+        },
+        {
+          "verse": "\"For this is my blood of the covenant, which will be shed on behalf of many for the forgiveness of sins.\"",
+          "ref": "Matthew 26:28"
+        },
+        {
+          "verse": "\"Amen, I say to you, I shall not drink again the fruit of the vine until the day when I drink it new in the kingdom of God.\"",
+          "ref": "Mark 14:25"
+        }
+      ]
+    }
+  ]
+}

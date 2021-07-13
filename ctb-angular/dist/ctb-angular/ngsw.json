@@ -1,0 +1,129 @@
+{
+  "configVersion": 1,
+  "timestamp": 1626213142785,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/index.html",
+        "/main.e516a6334aeee5be133c.js",
+        "/manifest.webmanifest",
+        "/polyfills.8557284ac814172f3cd3.js",
+        "/runtime.fcaed576879ab6f44c42.js",
+        "/styles.771cf7fae298ac1f5422.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/ctb-logo.png",
+        "/assets/favicon.ico",
+        "/assets/glorious.json",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-196x196.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/glorious1.jpg",
+        "/assets/images/glorious2.jpg",
+        "/assets/images/glorious3.jpg",
+        "/assets/images/glorious4.jpg",
+        "/assets/images/glorious5.jpg",
+        "/assets/images/joyful1.jpg",
+        "/assets/images/joyful2.jpg",
+        "/assets/images/joyful3.jpg",
+        "/assets/images/joyful5.jpg",
+        "/assets/images/luminous1.jpg",
+        "/assets/images/luminous2.jpg",
+        "/assets/images/luminous3.jpg",
+        "/assets/images/luminous4.jpg",
+        "/assets/images/luminous5.jpg",
+        "/assets/images/sorrowful2.jpg",
+        "/assets/images/sorrowful3.jpg",
+        "/assets/images/sorrowful4.jpg",
+        "/assets/images/sorrowful5.jpg",
+        "/assets/joyful.json",
+        "/assets/luminous.json",
+        "/assets/prayers.json",
+        "/assets/sorrowful.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/ctb-logo.png": "830f7bf8cbeb68cbf439ec49b49afbc605230bc9",
+    "/assets/favicon.ico": "83742783b930982ca178e81d00b4b66c1c9471c7",
+    "/assets/glorious.json": "1f8e4210a164d8d82a63838acd94a9eab5c85ed2",
+    "/assets/icons/icon-128x128.png": "2b386b81376b6a9d99e15f75e36ba7d9c190dfa9",
+    "/assets/icons/icon-144x144.png": "3e492b196209252f3e78f2105e33798cdb7622ea",
+    "/assets/icons/icon-152x152.png": "01641b4b31f1d225f20af71a14613b214314b659",
+    "/assets/icons/icon-196x196.png": "a054faf53870f59d15e3023c3e88350cb8f354c9",
+    "/assets/icons/icon-384x384.png": "c94b6ef9d01e064bda6801491ed38e3c11a96063",
+    "/assets/icons/icon-512x512.png": "509b6c6ed11f4d9b705952359dc4295a4b6f0536",
+    "/assets/icons/icon-72x72.png": "9fdeb2926e0067881688072824130c0a577a85ca",
+    "/assets/icons/icon-96x96.png": "3e1bbdf165a7862189096d837415588ceb47073b",
+    "/assets/images/glorious1.jpg": "a4ae96aee424636452949346474917307d7f03e9",
+    "/assets/images/glorious2.jpg": "f7d2e74541330b1ecebc0625f49919950cf43cbe",
+    "/assets/images/glorious3.jpg": "726a00d4fa5b6fb334ab79a7ae99cdba62fd5b4f",
+    "/assets/images/glorious4.jpg": "df95424396dc8082a984b1c0172401bb8563ec8f",
+    "/assets/images/glorious5.jpg": "a5a752eefb065ebb1f81c73f322e60b2cb71969b",
+    "/assets/images/joyful1.jpg": "110ed59de14c108ec9decf818573651067e9b21b",
+    "/assets/images/joyful2.jpg": "cef5275ae9cf5db5c23b7d30d9b0dbbc9869093d",
+    "/assets/images/joyful3.jpg": "43c2004f40e6db927087e868fed7697670d37e75",
+    "/assets/images/joyful5.jpg": "76eda1ccfd39880ba61b790e089ed88398be9079",
+    "/assets/images/luminous1.jpg": "e52b98d5774bcf15ecf012d75a7240cce35f9a02",
+    "/assets/images/luminous2.jpg": "afe00d109d0ddd62fcb72c0a54ce4aaf815efeea",
+    "/assets/images/luminous3.jpg": "bbbb534ac2e508ce9ef6a2eeb9260b92eb99ee3b",
+    "/assets/images/luminous4.jpg": "2b2ce98af56ab42e8f107e54555912696eda53d4",
+    "/assets/images/luminous5.jpg": "b1554013ca7ef70278c01db55c639c9564d2eca0",
+    "/assets/images/sorrowful2.jpg": "6a7476aca64a9562cc4fd429fd5aff68ff49e104",
+    "/assets/images/sorrowful3.jpg": "235f33a576bba53d02131ec81024ccb0e728c974",
+    "/assets/images/sorrowful4.jpg": "28758740341596949de3823fc30dedbfa26d2f08",
+    "/assets/images/sorrowful5.jpg": "dfd6adb8c3a4460552049cf40f2e47b88aa3c001",
+    "/assets/joyful.json": "fc72dd29c679150e9a0c9908e68f5b1cfb406b64",
+    "/assets/luminous.json": "53175e3a52a7784db179e20746e50b5baf17f0bc",
+    "/assets/prayers.json": "67efa563b6c045ca407746bdfe3c8c89c1bb524d",
+    "/assets/sorrowful.json": "7815b6cb57ebd15f3a62fa1da2339abe5dddad9f",
+    "/index.html": "e66c054e708e9433b26b7394ef14b76ab90697c7",
+    "/main.e516a6334aeee5be133c.js": "f5d6a49436336aedf628d1b4573634f587fdb239",
+    "/manifest.webmanifest": "560364f0b22475e17bb53c59bc2bf1592ca4d9d1",
+    "/polyfills.8557284ac814172f3cd3.js": "01a5494804ceab3a7594163c93c1a51b8fc408ae",
+    "/runtime.fcaed576879ab6f44c42.js": "4facf342be2fe1a59355ce93be80a5db52911e8c",
+    "/styles.771cf7fae298ac1f5422.css": "83ba3fe5e1a69d0a7d89adaf22b330a665fe1567"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

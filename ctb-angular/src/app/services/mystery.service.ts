@@ -2,10 +2,10 @@ import { Injectable } from '@angular/core'
 import { ActivationEnd, Event, Router } from '@angular/router'
 import { Observable, of } from 'rxjs'
 
-import glorious from '../../../data/glorious.json'
-import joyful from '../../../data/joyful.json'
-import luminous from '../../../data/luminous.json'
-import sorrowful from '../../../data/sorrowful.json'
+import glorious from '../../assets/glorious.json'
+import joyful from '../../assets/joyful.json'
+import luminous from '../../assets/luminous.json'
+import sorrowful from '../../assets/sorrowful.json'
 // import { MysteryI, DecadeI, defaultMystery, defaultDecade } from '../models/mysteries'
 
 @Injectable({

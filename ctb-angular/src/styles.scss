@@ -49,12 +49,33 @@ body {
   &__focus {
     justify-content: center;
   }
+
+  > * {
+    opacity: 0;
+    transform: translate3d(0, 1rem, 0);
+    transition: opacity 800ms var(--delay),
+      transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
+  }
+}
+
+.desktop-view {
+  > * {
+    opacity: 0;
+    transform: translate3d(0, 1rem, 0);
+    transition: opacity 800ms var(--delay),
+      transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
+  }
+}
+
+.visible > * {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
 
 // Global styles
 
 .bgcolor {
-  background-color: var(--theme-trans-light);
+  background-color: var(--theme-trans-dark);
 }
 
 .div-line {
@@ -144,6 +165,12 @@ p {
         width: 75%;
       }
     }
+  }
+}
+
+@media screen and (min-width: map-get($map: $breakpoints, $key: 'desktop')) {
+  html {
+    font-size: 30px;
   }
 }
 

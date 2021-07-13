@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core'
-import PRAYERS from '../../../../data/prayers.json'
+import { AnimationsService } from 'src/app/services/animations.service'
+import PRAYERS from '../../../assets/prayers.json'
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import PRAYERS from '../../../../data/prayers.json'
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  constructor(private animations: AnimationsService) {}
 
   creed = PRAYERS.CREED
   our_father = PRAYERS.OUR_FATHER
@@ -18,5 +19,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     document.getElementById('top-box')?.scrollIntoView(true)
+    this.animations.fadeBoxes()
   }
 }

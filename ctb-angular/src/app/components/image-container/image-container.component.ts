@@ -6,7 +6,7 @@ import { ActivationEnd, Event, Router } from '@angular/router'
   templateUrl: './image-container.component.html',
   styleUrls: ['./image-container.component.scss'],
 })
-export class ImageContainerComponent implements OnInit, OnChanges {
+export class ImageContainerComponent implements OnInit {
   constructor(private router: Router) {
     // Subscribes to changes in the router url, updates state
     this.router.events.subscribe((event: Event) => {
@@ -19,7 +19,8 @@ export class ImageContainerComponent implements OnInit, OnChanges {
           this.decade = Number(this.route[2])
 
           this.image = {
-            url: `https://connectingthebeads-images.s3.amazonaws.com/${this.mystery}/${this.decade}${this.size}.jpg`,
+            // url: `https://connectingthebeads-images.s3.amazonaws.com/${this.mystery}/${this.decade}${this.size}.jpg`,
+            url: `../../../assets/images/${this.mystery}${this.decade}.jpg`,
             alt: `${this.mystery} ${this.decade}`,
           }
         }
@@ -35,7 +36,6 @@ export class ImageContainerComponent implements OnInit, OnChanges {
   route: string[] = []
   mystery: string = ''
   decade: number = 1
-  size: string = 'S'
 
   image = {
     url: '',
@@ -57,17 +57,11 @@ export class ImageContainerComponent implements OnInit, OnChanges {
     else if (currentDay === 2 || currentDay === 5) dailyMystery = 'sorrowful'
     else if (currentDay === 4) dailyMystery = 'luminous'
 
-    if (window.innerHeight > 900) this.size = 'M'
-    if (window.innerHeight > 1200) this.size = 'L'
-
     this.image = {
-      url: `https://connectingthebeads-images.s3.amazonaws.com/${dailyMystery}/${randomImageNumber}${this.size}.jpg`,
+      // url: `https://connectingthebeads-images.s3.amazonaws.com/${dailyMystery}/${randomImageNumber}${this.size}.jpg`,
+      url: `../../../assets/images/${dailyMystery}${randomImageNumber}.jpg`,
       alt: `${dailyMystery} ${randomImageNumber}`,
     }
     this.homeImage = this.image
-  }
-
-  ngOnChanges(): void {
-    console.log(this.decade)
   }
 }

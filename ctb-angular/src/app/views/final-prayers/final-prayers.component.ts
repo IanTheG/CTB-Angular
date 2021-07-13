@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { Router } from '@angular/router'
-import PRAYERS from '../../../../data/prayers.json'
+import PRAYERS from '../../../assets/prayers.json'
 
 @Component({
   selector: 'app-final-prayers',

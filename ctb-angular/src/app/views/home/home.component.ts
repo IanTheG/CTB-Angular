@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import PRAYERS from '../../../../data/prayers.json'
+import PRAYERS from '../../../assets/prayers.json'
 
 @Component({
   selector: 'app-home',

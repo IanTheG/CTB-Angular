@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges, OnInit } from '@angular/core'
 import { MysteryService } from '../../services/mystery.service'
 import { MysteryI, DecadeI, defaultMystery, defaultDecade } from '../../models/mysteries'
-import PRAYERS from '../../../../data/prayers.json'
+import PRAYERS from '../../../assets/prayers.json'
 
 @Component({
   selector: 'app-decade',

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1626215094790,
+  "timestamp": 1626230483163,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -16,13 +16,13 @@
         "/manifest.webmanifest",
         "/polyfills.8557284ac814172f3cd3.js",
         "/runtime.fcaed576879ab6f44c42.js",
-        "/styles.771cf7fae298ac1f5422.css"
+        "/styles.8e44601878c752330dbf.css"
       ],
       "patterns": []
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
@@ -100,12 +100,12 @@
     "/assets/luminous.json": "53175e3a52a7784db179e20746e50b5baf17f0bc",
     "/assets/prayers.json": "67efa563b6c045ca407746bdfe3c8c89c1bb524d",
     "/assets/sorrowful.json": "7815b6cb57ebd15f3a62fa1da2339abe5dddad9f",
-    "/index.html": "87f8e874f6cda066a45c2c95ee82055efa9a0070",
+    "/index.html": "f31572398a7ff09586ba4683cef514d7c593328c",
     "/main.f505bbd03e857427910e.js": "2f23e6508e10db00fe334d32ada9cf878bb6901f",
     "/manifest.webmanifest": "560364f0b22475e17bb53c59bc2bf1592ca4d9d1",
     "/polyfills.8557284ac814172f3cd3.js": "01a5494804ceab3a7594163c93c1a51b8fc408ae",
     "/runtime.fcaed576879ab6f44c42.js": "4facf342be2fe1a59355ce93be80a5db52911e8c",
-    "/styles.771cf7fae298ac1f5422.css": "83ba3fe5e1a69d0a7d89adaf22b330a665fe1567"
+    "/styles.8e44601878c752330dbf.css": "b95c80e4a45296ea8cd763b494ed7f0681f552e2"
   },
   "navigationUrls": [
     {

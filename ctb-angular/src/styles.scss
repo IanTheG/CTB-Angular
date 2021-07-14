@@ -18,6 +18,7 @@ body {
   color: black;
   margin: 0;
   padding: 0;
+  // background-color: var(--theme);
 }
 
 // Scroll snapping
@@ -29,14 +30,20 @@ body {
 // Default iPhone sizing and styles
 
 .scroll-box {
+  box-sizing: border-box;
   height: vh(100);
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+
+  border: 0.25rem solid var(--theme);
+  border-radius: 1rem;
+  &--border {
+  }
 }
 
 .box {
   height: vh(100);
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,8 +60,7 @@ body {
   > * {
     opacity: 0;
     transform: translate3d(0, 1rem, 0);
-    transition: opacity 800ms var(--delay),
-      transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
+    transition: opacity 800ms var(--delay), transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
   }
 }
 
@@ -62,8 +68,7 @@ body {
   > * {
     opacity: 0;
     transform: translate3d(0, 1rem, 0);
-    transition: opacity 800ms var(--delay),
-      transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
+    transition: opacity 800ms var(--delay), transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
   }
 }
 

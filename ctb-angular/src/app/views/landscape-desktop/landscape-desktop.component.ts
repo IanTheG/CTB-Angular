@@ -26,7 +26,7 @@ export class LandscapeDesktopComponent implements OnInit {
         if (entry.intersectionRatio >= 0.75) {
           target.classList.add('visible')
         } else {
-          target.classList.remove('visible')
+          // target.classList.remove('visible')
         }
       })
     }, options)

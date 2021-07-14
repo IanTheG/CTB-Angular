@@ -25,6 +25,10 @@ const routes: Routes = [
     path: 'final-prayers',
     component: FinalPrayersComponent,
   },
+  {
+    path: '**',
+    redirectTo: '/',
+  },
 ]
 
 @NgModule({

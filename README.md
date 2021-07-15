@@ -2,6 +2,8 @@
 
 A rewrite of Connecting The Beads in Angular with PWA enabled for offline caching
 
+Visit https://www.ctb.mobi for the live version on AWS!
+
 ## Code snippets I want to keep
 
 ### Extract data object from a route defined in the routing module

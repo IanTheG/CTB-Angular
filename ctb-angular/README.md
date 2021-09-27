@@ -1,5 +1,8 @@
 # CtbAngular
 
+Version 2 includes new images! This time, it's ALL OF THEM!  
+New section on home page called Praying The Rosary to help newcomers visualize praying the rosary.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
 ## Development server

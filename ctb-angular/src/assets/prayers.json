@@ -3,10 +3,7 @@
     "I believe in God, the Father almighty,\nCreator of heaven and earth,\nand in Jesus Christ, his only Son, our Lord,\nwho was conceived by the Holy Spirit,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, died and was buried;\nhe descended into hell;\non the third day he rose again from the dead;\nhe ascended into heaven,\nand is seated at the right hand of God the Father almighty;\nfrom there he will come to judge the living and the dead.\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\nAmen."
   ],
 
-  "SIGN_OF_CROSS": [
-    "In the name of The Father, The Son, and The Holy Spirit.",
-    "Amen."
-  ],
+  "SIGN_OF_CROSS": ["In the name of The Father, The Son, and The Holy Spirit.", "Amen."],
 
   "OUR_FATHER": [
     "Our Father, who art in heaven, hallowed be thy name; thy kingdom come; thy will be done on earth, as it is in heaven.",
@@ -29,7 +26,7 @@
   "FATIMA_PRAYER": "O my Jesus, forgive us our sins, save us from the fires of hell. Lead all souls to Heaven, especially those in most need of thy mercy.",
 
   "HAIL_HOLY_QUEEN": [
-    "Hail Holy Queen, Mother of Mercy, our Life, our Sweetness, and our hope. To thee we cry, poor banished children of Eve. To thee we send up our sighs, mourning and weeping in this vale of tears.",
+    "Hail Holy Queen, Mother of Mercy, our Life, our Sweetness, and our hope. To thee we cry, poor banished children of Eve. To thee we send up our sighs, mourning and weeping in this valley of tears.",
     "Turn then most gracious advocate, Thine eyes of mercy toward us, and after this, our exile, show unto us, the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary.",
     "Pray for us O Holy Mother of God,",
     "That we may be made worthy of the promises of Christ."

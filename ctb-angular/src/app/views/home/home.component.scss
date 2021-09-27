@@ -7,6 +7,38 @@
   }
 }
 
+// Praying the Rosary
+
+.praying-the-rosary {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin-bottom: 0;
+  }
+  figure {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem 1rem 0;
+    img {
+      width: 50%;
+      height: 50%;
+    }
+    caption {
+      ol {
+        padding-inline-start: 1.25rem;
+        li {
+          text-align: left;
+          font-size: 0.9rem;
+        }
+      }
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
 // Mystery Nav
 
 .mystery-box {

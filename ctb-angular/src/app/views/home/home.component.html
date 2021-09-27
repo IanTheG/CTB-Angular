@@ -6,15 +6,35 @@
         <div class="div-line"></div>
         <section>
           <p>
-            This mobile–friendly web app is a Rosary companion designed to help
-            you pray and meditate with scripture and religious artwork depicting
-            the lives of Jesus, Mary, Joseph, and the disciples.
+            This mobile–friendly web app is a Rosary companion designed to help you pray and meditate with scripture and
+            religious artwork depicting the lives of Jesus, Mary, Joseph, and the disciples.
           </p>
-          <p><i>
-              Add this app to your home screen to run it offline and in full
-              screen!
-            </i></p>
+          <p><i> Add this app to your home screen to run it offline and in full screen! </i></p>
           <p>Scroll down to get started 🙏</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="box box__focus">
+    <div>
+      <div>
+        <h2>The Rosary's Purpose</h2>
+        <div class="div-line"></div>
+        <section>
+          <p>
+            ‟The Rosary is a Scripture-based prayer. It begins with the Apostles' Creed, which summarizes the great
+            mysteries of the Catholic faith. The Our Father, which introduces each mystery, is from the Gospels. The
+            first part of the Hail Mary is the angel's words announcing Christ's birth and Elizabeth's greeting to Mary.
+            St. Pius V officially added the second part of the Hail Mary. The Mysteries of the Rosary center on the
+            events of Christ's life. There are four sets of Mysteries: Joyful, Sorrowful, Glorious and––added by Saint
+            John Paul II in 2002––the Luminous.”
+          </p>
+          <p>
+            ‟The repetition in the Rosary is meant to lead one into restful and contemplative prayer related to each
+            Mystery. The gentle repetition of the words helps us to enter into the silence of our hearts, where Christ's
+            spirit dwells. The Rosary can be said privately or with a group.”
+          </p>
         </section>
       </div>
     </div>
@@ -25,24 +45,25 @@
       <div>
         <h2>Praying The Rosary</h2>
         <div class="div-line"></div>
-        <section>
-          <p>
-            ‟The Rosary is a Scripture-based prayer. It begins with the
-            Apostles' Creed, which summarizes the great mysteries of the
-            Catholic faith. The Our Father, which introduces each mystery, is
-            from the Gospels. The first part of the Hail Mary is the angel's
-            words announcing Christ's birth and Elizabeth's greeting to Mary.
-            St. Pius V officially added the second part of the Hail Mary. The
-            Mysteries of the Rosary center on the events of Christ's life. There
-            are four sets of Mysteries: Joyful, Sorrowful, Glorious and––added
-            by Saint John Paul II in 2002––the Luminous.”
-          </p>
-          <p>
-            ‟The repetition in the Rosary is meant to lead one into restful and
-            contemplative prayer related to each Mystery. The gentle repetition
-            of the words helps us to enter into the silence of our hearts, where
-            Christ's spirit dwells. The Rosary can be said privately or with a
-            group.”
+        <section class="praying-the-rosary">
+          <p>The Rosary is usually prayed with beads to help you pray and meditate.</p>
+          <p>This web app will also help guide you in praying the Rosary.</p>
+          <figure>
+            <img src="../../../assets/images/rosary2.png" alt="Rosary" />
+            <caption>
+              <ol>
+                <li>Sign of the Cross, Apostle's Creed</li>
+                <li>Our Father</li>
+                <li>Three Hail Mary's</li>
+                <li>Glory Be</li>
+                <li>Announce the First Mystery, Our Father</li>
+                <li>Ten Hail Mary's</li>
+                <li>Glory Be, Fatima Prayer</li>
+              </ol>
+            </caption>
+          </figure>
+          <p style="text-align: left; margin: 1rem">
+            Repeat steps 5-7 four more times for each mystery, then pray the Final Prayers.
           </p>
         </section>
       </div>
@@ -52,7 +73,7 @@
   <div class="box box__focus">
     <div>
       <div>
-        <h3 style="text-align: center;">Opening Prayers</h3>
+        <h3 style="text-align: center">Opening Prayers</h3>
         <section>
           <p>Begin by making the <b>Sign of The Cross</b>.</p>
           <p>In the name of The Father, The Son, and The Holy Spirit.</p>
@@ -97,9 +118,7 @@
         <section>
           <p>Say three <b>Hail Mary's</b>.</p>
           <p>
-            <em>
-              For the increase of the virtues of Faith, Hope, and Charity.
-            </em>
+            <em> For the increase of the virtues of Faith, Hope, and Charity. </em>
           </p>
           <p *ngFor="let line of hail_mary">{{ line }}</p>
         </section>
@@ -123,7 +142,7 @@
   <div class="box box__focus">
     <div>
       <div class="mystery-box">
-        <h2 style="padding: 1rem;">Mysteries</h2>
+        <h2 style="padding: 1rem">Mysteries</h2>
         <!-- <div class="div-line"></div> -->
         <section class="link-wrapper">
           <a routerLink="/glorious/1">
@@ -161,37 +180,40 @@
       <div>
         <h2>Contact Info</h2>
         <div class="div-line"></div>
+        <p>This web app is created by Ian Goodwin, a web developer, jazz saxophonist, Catholic, and dreamer.</p>
         <p>
-          If you have any issues or encounter any bugs with <em>Connecting The
-            Beads</em> or would like to contact me,
-          <a href="https://www.facebook.com/profile.php?id=100013351997843"
-            target="_blank" rel="noreferrer" style="margin: 0;">
+          If you have any issues or encounter any bugs with <em>Connecting The Beads</em> or would like to contact me,
+          <a
+            href="https://www.facebook.com/profile.php?id=100013351997843"
+            target="_blank"
+            rel="noreferrer"
+            style="margin: 0"
+          >
             message me on Facebook.
           </a>
         </p>
         <p>
-          This web app is created by Ian Goodwin, a web developer, jazz
-          saxophonist, Catholic, and dreamer.
-        </p>
-        <p>
-          Note, this web app requires a modern smartphone and updated web
-          browser (at least iOS 12.2, or Chrome 51 on Android).
+          Note, this web app requires a modern smartphone and updated web browser (at least iOS 12.2, or Chrome 51 on
+          Android).
         </p>
       </div>
       <div>
         <p>Bible verses are quoted from the Catholic Public Domain Version.</p>
-        <a href="https://thenounproject.com/term/rosary/329724/" target="_blank"
-          rel="noreferrer" style="margin: 0 1rem;">
+        <a
+          href="https://thenounproject.com/term/rosary/329724/"
+          target="_blank"
+          rel="noreferrer"
+          style="margin: 0 1rem"
+        >
           Rosary favicon by Tivi Lupercio Ordoñez
         </a>
         <br />
-        <a href="https://www.usccb.org/how-to-pray-the-rosary" target="_blank"
-          rel="noreferrer" style="margin: 0 1rem;">
+        <a href="https://www.usccb.org/how-to-pray-the-rosary" target="_blank" rel="noreferrer" style="margin: 0 1rem">
           How to Pray the Rosary from the USCCB
         </a>
         <p>
-          The 20 Mysteries of The Rosary - Bellazzi<br>
-          Copyright 2021 - Used with permission<br>
+          The 20 Mysteries of The Rosary - Bellazzi<br />
+          Copyright 2021 - Used with permission<br />
           Fratelli Bonella - Milan, Italy
         </p>
         <h3>Copyright &copy; Ian G 2021</h3>

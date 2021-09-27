@@ -6,14 +6,25 @@
         <h1>The {{ decadeData.number }} {{ mystery | titlecase }} Mystery</h1>
         <h2>{{ decadeData.name }}</h2>
         <div class="div-line"></div>
-        <p><i>Fruits of the mystery: {{ decadeData.fruits }}</i></p>
+        <p>
+          <i>Fruits of the mystery: {{ decadeData.fruits }}</i>
+        </p>
       </div>
       <p *ngFor="let line of our_father">{{ line }}</p>
     </div>
   </div>
 </div>
 
-<div class="box scenes" *ngFor="let scene of decadeData.scenes; let i=index">
+<div class="box box__focus bgcolor" *ngIf="decade === 1">
+  <div>
+    <div>
+      <p *ngIf="decade === 1">For each bead, <b>meditate on the scripture</b> and <b>pray a Hail Mary</b>.</p>
+      <p *ngFor="let line of hail_mary">{{ line }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="box scenes" *ngFor="let scene of decadeData.scenes; let i = index">
   <div></div>
   <section class="scene">
     <figure class="number">
@@ -21,7 +32,9 @@
     </figure>
     <span class="verse">
       <p>{{ scene.verse }}</p>
-      <p><i>{{ scene.ref }}</i></p>
+      <p>
+        <i>{{ scene.ref }}</i>
+      </p>
     </span>
   </section>
 </div>

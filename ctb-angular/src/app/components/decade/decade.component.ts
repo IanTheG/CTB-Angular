@@ -23,6 +23,7 @@ export class DecadeComponent implements OnInit, OnChanges, AfterViewChecked {
 
   // num: string[] = ['First', 'Second', 'Third', 'Fourth', 'Fifth']
   our_father = PRAYERS.OUR_FATHER
+  hail_mary = PRAYERS.HAIL_MARY
 
   ngOnInit(): void {
     // Initialize mystery state by calling data from service

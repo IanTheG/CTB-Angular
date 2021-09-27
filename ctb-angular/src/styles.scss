@@ -11,6 +11,7 @@
 
 html {
   font-size: 15px;
+  height: 100%;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
   color: black;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 // Scroll snapping
@@ -92,8 +94,9 @@ body {
   justify-content: center;
 
   button {
-    background-color: #6a5188;
-    border: 0.25rem solid whitesmoke;
+    background-color: var(--theme-trans-dark);
+    border: 0.2rem solid var(--theme-dark);
+    // border: 0.25rem solid whitesmoke;
     border-radius: 20px;
     color: whitesmoke;
     cursor: pointer;
@@ -101,11 +104,6 @@ body {
     margin: 1rem;
     padding: 0.8rem;
     width: 50%;
-
-    &:hover,
-    &:active {
-      background-color: #967db4;
-    }
   }
 }
 
@@ -128,6 +126,7 @@ h2 {
   font-size: 1.8rem;
 }
 h3,
+li,
 button {
   font-family: map-get($map: $fonts, $key: 'text');
 }
@@ -186,8 +185,8 @@ p {
   display: none;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   div {
     flex: 1;

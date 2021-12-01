@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnDestroy, OnInit } from '@angular/core'
 import { Router } from '@angular/router'
+import { PrayersI } from 'src/app/models/lang'
 import { AnimationsService } from 'src/app/services/animations.service'
-import PRAYERS from '../../../assets/prayers.json'
+import { TranslateService } from 'src/app/services/translate.service'
 
 @Component({
   selector: 'app-final-prayers',
@@ -9,11 +10,19 @@ import PRAYERS from '../../../assets/prayers.json'
   styleUrls: ['./final-prayers.component.scss'],
 })
 export class FinalPrayersComponent implements OnInit {
-  constructor(private router: Router, private animations: AnimationsService) {}
+  prayers: PrayersI = {} as PrayersI
+  homeButton: string = ''
+  final_prayers_title: string = ''
+  end_with: string = ''
 
-  hail_holy_queen = PRAYERS.HAIL_HOLY_QUEEN
-  final_prayer = PRAYERS.FINAL_PRAYER
-  st_michael = PRAYERS.ST_MICHAEL
+  constructor(private router: Router, private animations: AnimationsService, private translate: TranslateService) {
+    this.translate.lang.subscribe((e) => {
+      this.final_prayers_title = e.home.prayers.final
+      this.end_with = e.home.prayers.end_with
+      this.prayers = e.prayers
+      this.homeButton = e.buttons.home
+    })
+  }
 
   ngOnInit(): void {
     this.animations.fadeBoxes()

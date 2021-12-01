@@ -1,8 +1,9 @@
 import { AfterViewChecked, Component, Input, OnChanges, OnInit } from '@angular/core'
 import { MysteryService } from '../../services/mystery.service'
 import { MysteryI, DecadeI, defaultMystery, defaultDecade } from '../../models/mysteries'
-import PRAYERS from '../../../assets/prayers.json'
 import { AnimationsService } from 'src/app/services/animations.service'
+import { TranslateService } from 'src/app/services/translate.service'
+import { PrayersI } from 'src/app/models/lang'
 
 @Component({
   selector: 'app-decade',
@@ -10,8 +11,6 @@ import { AnimationsService } from 'src/app/services/animations.service'
   styleUrls: ['./decade.component.scss'],
 })
 export class DecadeComponent implements OnInit, OnChanges, AfterViewChecked {
-  constructor(private mysteryService: MysteryService, private animations: AnimationsService) {}
-
   @Input() decade!: number
   @Input() mystery!: string
 
@@ -21,28 +20,31 @@ export class DecadeComponent implements OnInit, OnChanges, AfterViewChecked {
   mysteryData: MysteryI = defaultMystery
   decadeData: DecadeI = defaultDecade
 
-  // num: string[] = ['First', 'Second', 'Third', 'Fourth', 'Fifth']
-  our_father = PRAYERS.OUR_FATHER
-  hail_mary = PRAYERS.HAIL_MARY
+  prayers: PrayersI = {} as PrayersI
+
+  constructor(private animations: AnimationsService, private translate: TranslateService) {}
 
   ngOnInit(): void {
     // Initialize mystery state by calling data from service
-    switch (this.mystery) {
-      case 'glorious':
-        this.mysteryData = this.mysteryService.getGlorious()
-        break
-      case 'joyful':
-        this.mysteryData = this.mysteryService.getJoyful()
-        break
-      case 'luminous':
-        this.mysteryData = this.mysteryService.getLuminous()
-        break
-      case 'sorrowful':
-        this.mysteryData = this.mysteryService.getSorrowful()
-        break
-      case 'default':
-        return
-    }
+    this.translate.lang.subscribe((e) => {
+      this.prayers = e.prayers
+      switch (this.mystery) {
+        case 'glorious':
+          this.mysteryData = e.glorious
+          break
+        case 'joyful':
+          this.mysteryData = e.joyful
+          break
+        case 'luminous':
+          this.mysteryData = e.luminous
+          break
+        case 'sorrowful':
+          this.mysteryData = e.sorrowful
+          break
+        case 'default':
+          return
+      }
+    })
     this.decadeData = this.mysteryData.decades[this.decade - 1]
     this.decadeChange = true
   }

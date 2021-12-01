@@ -2,10 +2,10 @@
   <div class="box box__focus" id="top-box">
     <div>
       <div>
-        <h3 style="text-align: center">Final Prayers</h3>
-        <h2 style="padding: 0 1rem">Hail Holy Queen</h2>
+        <h3 style="text-align: center">{{ final_prayers_title }}</h3>
+        <h2 style="padding: 0 1rem">{{ prayers.HAIL_HOLY_QUEEN.title }}</h2>
         <div class="div-line"></div>
-        <p *ngFor="let line of hail_holy_queen">{{ line }}</p>
+        <p *ngFor="let line of prayers.HAIL_HOLY_QUEEN.text">{{ line }}</p>
       </div>
     </div>
   </div>
@@ -13,9 +13,9 @@
   <div class="box box__focus">
     <div>
       <div>
-        <h2 style="padding: 1rem 1rem 0 1rem">Final Prayer</h2>
+        <h2 style="padding: 1rem 1rem 0 1rem">{{ prayers.FINAL_PRAYER.title }}</h2>
         <div class="div-line"></div>
-        <p *ngFor="let line of final_prayer">{{ line }}</p>
+        <p *ngFor="let line of prayers.FINAL_PRAYER.text">{{ line }}</p>
       </div>
     </div>
   </div>
@@ -24,18 +24,20 @@
     <div>
       <div>
         <div>
-          <h2 style="padding: 1rem 1rem 0 1rem">St. Michael Prayer</h2>
+          <h2 style="padding: 1rem 1rem 0 1rem">{{ prayers.ST_MICHAEL.title }}</h2>
           <div class="div-line"></div>
-          <p *ngFor="let line of st_michael">{{ line }}</p>
+          <p *ngFor="let line of prayers.ST_MICHAEL.text">{{ line }}</p>
         </div>
         <div>
           <br />
-          <p>End the Rosary by making the <b>Sign of The Cross</b>.</p>
-          <p>In the name of The Father, The Son, and The Holy Spirit.</p>
-          <p>Amen.</p>
+          <p>
+            {{ end_with }}<b>{{ prayers.SIGN_OF_CROSS.title }}</b>
+            .
+          </p>
+          <p *ngFor="let line of prayers.SIGN_OF_CROSS.text">{{ line }}</p>
         </div>
         <div class="btn-box">
-          <button (click)="navHome()" clickable>Home</button>
+          <button (click)="navHome()" clickable>{{ homeButton }}</button>
         </div>
       </div>
     </div>

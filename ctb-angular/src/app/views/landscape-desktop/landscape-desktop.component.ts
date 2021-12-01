@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnDestroy, OnInit } from '@angular/core'
+import { ContactI, LandscapeDesktopI } from 'src/app/models/lang'
+import { TranslateService } from 'src/app/services/translate.service'
 
 @Component({
   selector: 'app-landscape-desktop',
@@ -6,7 +8,17 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./landscape-desktop.component.scss'],
 })
 export class LandscapeDesktopComponent implements OnInit {
-  constructor() {}
+  title: string = ''
+  text: LandscapeDesktopI = {} as LandscapeDesktopI
+  copyright: ContactI = {} as ContactI
+
+  constructor(private translate: TranslateService) {
+    this.translate.lang.subscribe((e) => {
+      this.title = e.home.title
+      this.text = e.landscape_desktop
+      this.copyright = e.home.contact
+    })
+  }
 
   ngOnInit(): void {
     this.fadeDesktopBox()

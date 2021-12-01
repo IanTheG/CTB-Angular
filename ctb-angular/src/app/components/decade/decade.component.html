@@ -3,14 +3,14 @@
   <div>
     <div>
       <div class="decade">
-        <h1>The {{ decadeData.number }} {{ mystery | titlecase }} Mystery</h1>
+        <h1>{{ decadeData.number }}</h1>
         <h2>{{ decadeData.name }}</h2>
         <div class="div-line"></div>
         <p>
           <i>Fruits of the mystery: {{ decadeData.fruits }}</i>
         </p>
       </div>
-      <p *ngFor="let line of our_father">{{ line }}</p>
+      <p *ngFor="let line of prayers.OUR_FATHER.text">{{ line }}</p>
     </div>
   </div>
 </div>
@@ -18,8 +18,10 @@
 <div class="box box__focus bgcolor" *ngIf="decade === 1">
   <div>
     <div>
-      <p *ngIf="decade === 1">For each bead, <b>meditate on the scripture</b> and <b>pray a Hail Mary</b>.</p>
-      <p *ngFor="let line of hail_mary">{{ line }}</p>
+      <p *ngIf="decade === 1">
+        For each of the ten beads, <b>meditate on the scripture</b> and <b>pray a Hail Mary</b>.
+      </p>
+      <p>Tap the number on the left-hand side to view the Hail Mary prayer instead of the scripture verse.</p>
     </div>
   </div>
 </div>
@@ -27,6 +29,7 @@
 <div class="box scenes" *ngFor="let scene of decadeData.scenes; let i = index">
   <div></div>
   <section class="scene">
+    <input type="checkbox" name="num" id="num" />
     <figure class="number">
       <p>{{ i + 1 }}</p>
     </figure>
@@ -35,6 +38,9 @@
       <p>
         <i>{{ scene.ref }}</i>
       </p>
+    </span>
+    <span class="hail-mary">
+      <p *ngFor="let line of prayers.HAIL_MARY.text">{{ line }}</p>
     </span>
   </section>
 </div>

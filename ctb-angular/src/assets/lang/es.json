@@ -1,0 +1,1135 @@
+{
+  "home": {
+    "title": "Conectando las Cuentas",
+    "desc": "This mobile–friendly web app is a Rosary companion designed to help you pray and meditate with scripture and religious artwork depicting the lives of Jesus, Mary, Joseph, and the disciples.",
+    "instructions": "Add this app to your home screen to run it offline and in full screen!",
+    "get_started": "Scroll down to get started 🙏",
+    "languages": {
+      "english": "Inglés",
+      "spanish": "Español"
+    },
+    "rosary_purpose": {
+      "title": "The Rosary's Purpose",
+      "p1": "‟The Rosary is a Scripture-based prayer. It begins with the Apostles' Creed, which summarizes the great mysteries of the Catholic faith. The Our Father, which introduces each mystery, is from the Gospels. The first part of the Hail Mary is the angel's words announcing Christ's birth and Elizabeth's greeting to Mary. St. Pius V officially added the second part of the Hail Mary. The Mysteries of the Rosary center on the events of Christ's life. There are four sets of Mysteries: Joyful, Sorrowful, Glorious and––added by Saint John Paul II in 2002––the Luminous.”",
+      "p2": "‟The repetition in the Rosary is meant to lead one into restful and contemplative prayer related to each Mystery. The gentle repetition of the words helps us to enter into the silence of our hearts, where Christ's spirit dwells. The Rosary can be said privately or with a group.”"
+    },
+    "praying_rosary": {
+      "title": "Praying The Rosary",
+      "p2": "The Rosary is usually prayed with beads to help you pray and meditate.",
+      "p1": "This web app will also help guide you in praying the Rosary.",
+      "steps": [
+        "Sign of the Cross, Apostle's Creed",
+        "Our Father",
+        "Three Hail Mary's",
+        "Glory Be",
+        "Announce the First Mystery, Our Father",
+        "Ten Hail Mary's",
+        "Glory Be, Fatima Prayer",
+        "Repeat steps 5-7 four more times for each mystery, then pray the Final Prayers."
+      ]
+    },
+    "prayers": {
+      "opening": "Opening Prayers",
+      "say_the": "Say the ",
+      "begin_with": "Begin by making the ",
+      "for_the_pope": "For our Holy Father, Pope Francis.",
+      "say_three": "Say three ",
+      "hail_marys": "Hail Mary's",
+      "hail_mary_virtues": "For the increase of the virtues of Faith, Hope, and Charity.",
+      "final": "Las Oraciones Finales",
+      "end_with": "End the Rosary by making the "
+    },
+    "mysteries": {
+      "mysteries_title": "Misterios",
+      "glorious": "Gloriosos",
+      "joyful": "Gozosos",
+      "sorrowful": "Dolorosos",
+      "luminous": "Luminosos",
+      "days": {
+        "sunday": "Domingo",
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miércoles",
+        "thursday": "Jueves",
+        "friday": "viernes",
+        "saturday": "Sábado"
+      }
+    },
+    "contact": {
+      "title": "Contact Info",
+      "created_by": "This web app is created by Ian Goodwin, a web developer, jazz saxophonist, Catholic, and dreamer.",
+      "issues_p1": "If you have any issues or encounter any bugs with ",
+      "issues_p2": " or would like to contact me,",
+      "issues_p3": "message me on Facebook.",
+      "compatibility_note": "Note, this web app requires a modern smartphone and updated web browser (at least iOS 12.2, or Chrome 51 on Android).",
+      "bible_quote": "Bible verses are quoted from the Catholic Public Domain Version.",
+      "rosary_favicon": "Rosary favicon by Tivi Lupercio Ordoñez",
+      "how_to": "How to Pray the Rosary from the USCCB",
+      "copyr_img_p1": "The 20 Mysteries of The Rosary - Bellazzi",
+      "copyr_img_p2": "Copyright 2021 - Used with permission",
+      "copyr_img_p3": "Fratelli Bonella - Milan, Italy",
+      "copyright": "Copyright"
+    }
+  },
+  "landscape_mobile": "Please rotate your device to portrait mode!",
+  "landscape_desktop": {
+    "hook": "Rediscover the Rosary with Scripture and Artwork",
+    "desc": "This simple and elegant web app is designed to help newcomers and daily devotees pray the Rosary. Relevant scripture verses and emotive artwork for each mystery allows you to stay focused and meditate on the lives of Jesus and Mary.",
+    "instructions": "You can install Connecting The Beads on any smartphone or tablet by pressing \"Add to Home Screen\", or shrink your desktop browser to view the app. Requires at least iOS 12.2 or Chrome 51. Built using Angular."
+  },
+  "buttons": {
+    "continue": "Continuar",
+    "home": "Protada"
+  },
+  "prayers": {
+    "CREED": {
+      "title": "Credo de los Apóstoles",
+      "text": [
+        "Creo en Dios, Padre todopoderoso,\nCreador del Cielo y la tierra,\ncreo en Jesucristo, Su único Hijo Nuestro Señor,\nquien fue concebido por obra y gracia del Espíritu Santo,\nnació de Santa María Virgen,\npadeció bajo el poder de Poncio Pilatos,\nfue crucificado, muerto y sepultado.\nDescendió a los infiernos,\nal tercer día resucitó entre los muertos,\nsubió al Cielo,\ny está sentado a la derecho de Dios Padre, todopoderoso;\ndesde allí va a venir a juzgar a vivos y muertos.\nCreo en el Espíritu Santo,\nen la Santa Iglesia Católica,\nla comunión de los santos,\nel perdón de los pecados,\nla resurrección de la carne,\ny la vida eterna.\nAmén."
+      ]
+    },
+    "SIGN_OF_CROSS": {
+      "title": "Señal de la Cruz",
+      "text": ["En el nombre del Padre, y del Hijo, y del Espíritu Santo.", "Amén."]
+    },
+    "OUR_FATHER": {
+      "title": "Padre Nuestro",
+      "text": [
+        "Padre Nuestro, que estás en en cielo, santificado sea Tu nombre. Venga a nosotros tu Reino. Hágase Señor tu Voluntad, hacia en la Tierra como en el Cielo.",
+        "Danos hoy nuestro Pan de cada día, perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden. No nos dejes caer en tentación, y líbranos de todo mal.",
+        "Amén."
+      ]
+    },
+    "HAIL_MARY": {
+      "title": "Ave María",
+      "text": [
+        "Dios te salve María, llena eres de Gracia; el Señor es contigo; bendita eres entre todas las mujeres, y bendite es el fruto, Jesús.",
+        "Santa María, Madre de Dios, ruega por nosotros los pecadores, ahora y en la hora de nuestra muerte.",
+        "Amén."
+      ]
+    },
+    "GLORY_BE": {
+      "title": "Gloria",
+      "text": [
+        "Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+        "Como era en un principio, ahora y siempre, y por los siglos de los siglos.",
+        "Amén."
+      ]
+    },
+    "FATIMA_PRAYER": {
+      "title": "Oración de Fátima",
+      "text": [
+        "Oh Jesús mío, perdónanos nuestros pecados, líbranos del fuego del infierno y lleva todas las almas al cielo, especialmente aquellas que están más necesitadas de tu Divina Misericordia."
+      ]
+    },
+    "HAIL_HOLY_QUEEN": {
+      "title": "Salve Regina",
+      "text": [
+        "Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra; Dios te salve. A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando, en este valle de lágrimas.",
+        "Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos; y después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre. ¡Oh, clementísima, oh piadosa, oh dulce Virgen María!",
+        "Ruega por nosotros, Santa Madre de Dios,",
+        "Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo."
+      ]
+    },
+    "FINAL_PRAYER": {
+      "title": "La Oración Final",
+      "text": [
+        "Oremos.",
+        "Oh Dios, cuyo Unigénito Hijo con su vida, muerte y resurrección nos consiguió los premios de la vida eterna, te rogamos nos concedas que, meditando estos misterios en el sacratísimo Rosario de la Bienaventurada Virgen María, imitemos lo que contienen y alcancemos lo que prometen. Por Jesucristo Nuestro Señor.",
+        "Amén."
+      ]
+    },
+    "ST_MICHAEL": {
+      "title": "Oracion A San Miguel Arcangel",
+      "text": [
+        "O San Miguel, Arcangel defiendenos en la batalla. Se nuestra proteccion contra el mal y las trampas del Diablo; humildemente te rogamos que Dios los reprenda.",
+        "O Principe Celestial de la Santa Hostia, que con la ayuda de Dios eches a Satanas al infierno y a los espiritus que vagan por el mundo para arruinar las almas.",
+        "Amén."
+      ]
+    }
+  },
+  "glorious": {
+    "id": "glorious",
+    "name": "Glorious",
+    "decades": [
+      {
+        "id": 1,
+        "name": "La Resurrección del Hijo de Dios",
+        "number": "El Primer Misterio Glorioso",
+        "fruits": "faith",
+        "scenes": [
+          {
+            "verse": "\"Amen, amen, I say to you, you will weep and mourn, while the world rejoices; you will grieve, but your grief will become joy.\"",
+            "ref": "John 16:20"
+          },
+          {
+            "verse": "\"So you also are now in anguish. But I will see you again, and your hearts will rejoice, and no one will take your joy away from you.\"",
+            "ref": "John 16:22"
+          },
+          {
+            "verse": "But at daybreak on the first day of the week they took the spices they had prepared and went to the tomb.",
+            "ref": "Luke 24:1"
+          },
+          {
+            "verse": "And behold, there was a great earthquake; for an angel of the Lord descended from heaven, approached, rolled back the stone, and sat upon it.",
+            "ref": "Matthew 28:2"
+          },
+          {
+            "verse": "\"Do not be afraid! I know that you are seeking Jesus the crucified.\"",
+            "ref": "Matthew 28:5"
+          },
+          {
+            "verse": "\"He is not here, for he has been raised just as he said. Come and see the place where he lay.\"",
+            "ref": "Matthew 28:6"
+          },
+          {
+            "verse": "\"And he is going before you to Galilee; there you will see him.\"",
+            "ref": "Matthew 28:7b"
+          },
+          {
+            "verse": "Then they went away quickly from the tomb, fearful yet overjoyed, and ran to announce this to his disciples.",
+            "ref": "Matthew 28:8"
+          },
+          {
+            "verse": "\"I am the resurrection and the life; whoever believes in me, even if he dies, will live.\"",
+            "ref": "John 11:25"
+          },
+          {
+            "verse": "\"And everyone who lives and believes in me will never die.\"",
+            "ref": "John 11:26"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "La Ascensión del Señor a los Cielos",
+        "number": "El Segundo Misterio Glorioso",
+        "fruits": "hope, desire for Heaven",
+        "scenes": [
+          {
+            "verse": "He presented himself alive to them by many proofs after he had suffered, appearing to them during forty days and speaking about the kingdom of God.",
+            "ref": "Acts 1:3"
+          },
+          {
+            "verse": "Then Jesus led them out as far as Bethany, raised his hands, and blessed them.",
+            "ref": "Luke 24:50"
+          },
+          {
+            "verse": "\"All power in heaven and on earth has been given to me. Go, therefore, and make disciples of all nations.\"",
+            "ref": "Matthew 28:18b-19a"
+          },
+          {
+            "verse": "\"Baptize them in the name of the Father, and of the Son, and of the Holy Spirit.\"",
+            "ref": "Matthew 28:19b"
+          },
+          {
+            "verse": "\"Teach them to observe all that I have commanded you.\"",
+            "ref": "Matthew 28:20a"
+          },
+          {
+            "verse": "\"He who believes and is baptized will be saved. He who does not believe will be condemned.\"",
+            "ref": "Mark 16:16"
+          },
+          {
+            "verse": "\"And behold, I am with you always, until the end of the age.\"",
+            "ref": "Matthew 28:20b"
+          },
+          {
+            "verse": "So then the Lord Jesus, after he spoke to them, was taken up into heaven and took his seat at the right hand of God.",
+            "ref": "Mark 16:19"
+          },
+          {
+            "verse": "While they were looking intently at the sky as he was going, suddenly two men dressed in white garments stood beside them.",
+            "ref": "Acts: 1:10"
+          },
+          {
+            "verse": "They said, \"Men of Galilee, why are you standing there looking at the sky?\" Then they returned to Jerusalem from the mount called Olivet, which is near Jerusalem.",
+            "ref": "Acts 1:11a, 12"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "La Venida del Espíritu Santo sobre los Apóstoles",
+        "number": "El Tercer Misterio Glorioso",
+        "fruits": "wisdom, love of God, divine charity",
+        "scenes": [
+          {
+            "verse": "When the time for Pentecost was fulfilled, they were all in one place together.",
+            "ref": "Acts 2:1"
+          },
+          {
+            "verse": "And suddenly there came from the sky a noise like a strong driving wind, and it filled the entire house in which they were.",
+            "ref": "Acts 2:2"
+          },
+          {
+            "verse": "Then there appeared to them tongues as of fire, which parted and came to rest on each one of them.",
+            "ref": "Acts 2:3"
+          },
+          {
+            "verse": "And they were all filled with the Holy Spirit and began to speak in different tongues, as the Spirit enabled them to proclaim.",
+            "ref": "Acts 2:4"
+          },
+          {
+            "verse": "At this sound, they gathered in a large crowd, but they were confused because each one heard them speaking in his own language.",
+            "ref": "Acts 2:6"
+          },
+          {
+            "verse": "Then Peter stood up with the Eleven, raised his voice, and proclaimed to them.",
+            "ref": "Acts 2:14a"
+          },
+          {
+            "verse": "\"Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins; and you will receive the gift of the Holy Spirit.\"",
+            "ref": "Acts 2:38"
+          },
+          {
+            "verse": "Those who accepted his message were baptized, and about three thousand persons were added that day.",
+            "ref": "Acts 2:41"
+          },
+          {
+            "verse": "Send forth your Spirit, and they shall be created; and you shall renew the face of the earth.",
+            "ref": "Come, Holy Spirit prayer"
+          },
+          {
+            "verse": "Come, Holy Spirit, fill the hearts of your faithful: and kindle in them the fire of your love.",
+            "ref": "Come, Holy Spirit prayer"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "La Asunción de Nuestra Señora a los Cielos",
+        "number": "El Cuarto Misterio Glorioso",
+        "fruits": "devotion to Mary",
+        "scenes": [
+          {
+            "verse": "And Mary said: \"My soul proclaims the greatness of the Lord; my spirit rejoices in God my savior.\"",
+            "ref": "Luke 1:46-47"
+          },
+          {
+            "verse": "For he has looked upon his handmaid’s lowliness; behold, from now on will all ages call me blessed.",
+            "ref": "Luke 1:48"
+          },
+          {
+            "verse": "The Mighty One has done great things for me, and holy is his name.",
+            "ref": "Luke 1:49"
+          },
+          {
+            "verse": "Then God’s temple in heaven was opened, and the ark of his covenant could be seen in the temple.",
+            "ref": "Revelation 11:19a"
+          },
+          {
+            "verse": "A great sign appeared in the sky, a woman clothed with the sun. With the moon under her feet, and on her head a crown of twelve stars.",
+            "ref": "Revelation 12:1"
+          },
+          {
+            "verse": "My lover speaks and says to me, \"Arise, my friend, my beautiful one, and come!\"",
+            "ref": "Song 2:10"
+          },
+          {
+            "verse": "\"For see, winter is past; the rains are over and gone.\"",
+            "ref": "Song 2:11"
+          },
+          {
+            "verse": "\"Let me your face, let me hear your voice; for your voice is sweet, and your face is lovely.\"",
+            "ref": "Song 2:14"
+          },
+          {
+            "verse": "All glorious is the king’s daughter as she enters, her raiment threaded with gold. In embroidered apparel she is led to the king.",
+            "ref": "Psalm 45:14-15"
+          },
+          {
+            "verse": "Blessed are you, daughter, by the Most High God, above all the women on earth.",
+            "ref": "Judith 13:18"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "La Coronación de la Santísima Virgen como Reina de Cielos y Tierra",
+        "number": "El Quinto Misterio Glorioso",
+        "fruits": "perseverance, increase in virtue and trust",
+        "scenes": [
+          {
+            "verse": "Who is this that comes forth like the dawn, beautiful as the white moon, pure as the blazing sun, fearsome as celestial visions?",
+            "ref": "Song 6:10"
+          },
+          {
+            "verse": "Like sun shining upon the temple of the King, like a rainbow appearing in the cloudy sky.",
+            "ref": "Sirach 50:7"
+          },
+          {
+            "verse": "Like blossoms on the branches in springtime, like a lily by running waters.",
+            "ref": "Sirach 50:8"
+          },
+          {
+            "verse": "\"In the heights of heaven I dwelt, and my throne was in a pillar of cloud.\"",
+            "ref": "Sirach 24:4"
+          },
+          {
+            "verse": "\"Come to me, all who desire me, and be filled with my fruits.\"",
+            "ref": "Sirach 24:19"
+          },
+          {
+            "verse": "\"I bud forth delights like a vine; my blossoms are glorious and rich fruit.\"",
+            "ref": "Sirach 24:17"
+          },
+          {
+            "verse": "\"Whoever obeys me will not be put to shame, and those who serve me will never go astray.\"",
+            "ref": "Sirach 24:22"
+          },
+          {
+            "verse": "\"Now, children, listen to me; happy are they who keep my ways. Listen to instruction and grow wise, do not reject it!\"",
+            "ref": "Proverbs 8:32-33"
+          },
+          {
+            "verse": "\"Happy the one who listens to me, attending daily at my gates, keeping watch at my doorposts.\"",
+            "ref": "Proverbs 8:34"
+          },
+          {
+            "verse": "\"For whoever finds me finds life, and wins favor from the Lord.\"",
+            "ref": "Proverbs 8:35"
+          }
+        ]
+      }
+    ]
+  },
+  "joyful": {
+    "id": "joyful",
+    "name": "Joyful",
+    "decades": [
+      {
+        "id": 1,
+        "name": "La encarnación del Hijo de Dios",
+        "number": "El Primer Misterio Gozoso",
+        "fruits": "humility",
+        "scenes": [
+          {
+            "verse": "The angel Gabriel was sent from God to a town of Galilee called Nazareth, to a virgin betrothed to a man named Joseph, of the house of David, and the virgin’s name was Mary.",
+            "ref": "Luke 1:26-27"
+          },
+          {
+            "verse": "And coming to her, he said, \"Hail, favored one! The Lord is with you!\"",
+            "ref": "Luke 1:28"
+          },
+          {
+            "verse": "But she was greatly troubled at what was said and pondered what sort of greeting this might be.",
+            "ref": "Luke 1:29"
+          },
+          {
+            "verse": "Then the angel said to her, \"Do not be afraid, Mary, for you have found favor with God.\"",
+            "ref": "Luke 1:30"
+          },
+          {
+            "verse": "\"Behold, you will conceive in your womb and bear a son, and you shall name him Jesus.\"",
+            "ref": "Luke 1:31"
+          },
+          {
+            "verse": "\"He will be great and will be called Son of the Most High, and the Lord God will give him the throne of David his father.\"",
+            "ref": "Luke 1:32"
+          },
+          {
+            "verse": "But Mary said to the angel, \"How can this be, since I have no relations with a man?\"",
+            "ref": "Luke 1:34"
+          },
+          {
+            "verse": "\"The holy Spirit will come upon you, and the power of the Most High will overshadow you.\"",
+            "ref": "Luke 1:35a"
+          },
+          {
+            "verse": "\"Therefore the child to be born will be called holy, the Son of God.\"",
+            "ref": "Luke 1:35b"
+          },
+          {
+            "verse": "Mary said, \"Behold, I am the handmaid of the Lord. May it be done to me according to your word.\"",
+            "ref": "Luke 1:38"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "La visitación de Nuestra Señora a su prima Santa Isabel",
+        "number": "El Segundo Misterio Gozoso",
+        "fruits": "love of neighbor",
+        "scenes": [
+          {
+            "verse": "Mary set out and traveled to the hill country in haste to a town of Judah, where she entered the house of Zechariah and greeted Elizabeth.",
+            "ref": "Luke 1:39-40"
+          },
+          {
+            "verse": "When Elizabeth heard Mary’s greeting, the infant leaped in her womb, and Elizabeth was filled with the holy Spirit.",
+            "ref": "Luke 1:41"
+          },
+          {
+            "verse": "She cried out in a loud voice and said, \"Most blessed are you among women, and blessed is the fruit of your womb.\"",
+            "ref": "Luke 1:42"
+          },
+          {
+            "verse": "\"Blessed are you who believed that what was spoken to you by the Lord would be fulfilled.\"",
+            "ref": "Luke 1:45"
+          },
+          {
+            "verse": "And Mary said, \"My soul proclaims the greatness the Lord, and my spirit rejoices in God my Savior, for he has looked upon his handmaid’s lowliness.\"",
+            "ref": "Luke 1:46-48a"
+          },
+          {
+            "verse": "\"Behold, from now on will all ages call me blessed. The Mighty One has done great things for me, and holy is his name.\"",
+            "ref": "Luke 1:48b-49"
+          },
+          {
+            "verse": "\"His mercy is from age to age to those who fear him.\"",
+            "ref": "Luke 1:50"
+          },
+          {
+            "verse": "\"He has shown might with his arm, dispersed the arrogant of mind and heart.\"",
+            "ref": "Luke 1:51"
+          },
+          {
+            "verse": "\"He has thrown down the rulers from their thrones but lifted up the lowly.\"",
+            "ref": "Luke 1:52"
+          },
+          {
+            "verse": "\"The hungry he has filled with good things; the rich he has sent away empty.\"",
+            "ref": "Luke 1:53"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "El nacimiento del Hijo de Dios",
+        "number": "El Tercer Misterio Gozoso",
+        "fruits": "poverty, detachment from things of the world, love of the poor",
+        "scenes": [
+          {
+            "verse": "While they were there [in Bethlehem], the time came for Mary to have her child.",
+            "ref": "Luke 2:6"
+          },
+          {
+            "verse": "She gave birth to her firstborn son. She wrapped him in swaddling clothes and laid him in a manger, because there was no room for them in the inn.",
+            "ref": "Luke 2:7"
+          },
+          {
+            "verse": "Now there were shepherds in that region living in the fields and keeping the night watch over their flock.",
+            "ref": "Luke 2:8"
+          },
+          {
+            "verse": "The angel of the Lord appeared to them and the glory of the Lord shone around them, and they were struck with great fear.",
+            "ref": "Luke 2:9"
+          },
+          {
+            "verse": "The angel said to them, \"Do not be afraid; for behold, I proclaim to you good news of great joy that will be for all the people.\"",
+            "ref": "Luke 2:10"
+          },
+          {
+            "verse": "\"For today in the city of David a savior has been born for you who is Messiah and Lord. You will find an infant wrapped in swaddling clothes and lying in a manger.\"",
+            "ref": "Luke 2:11-12"
+          },
+          {
+            "verse": "And suddenly there was a multitude of the heavenly host with the angel, praising God and saying: \"Glory to God in the highest and on earth peace to those on whom his favor rests.\"",
+            "ref": "Luke 2:13-14"
+          },
+          {
+            "verse": "When Jesus was born in Bethlehem of Judea, in the days of King Herod, behold, magi from the east arrived and on entering the house they saw the child with Mary his mother.",
+            "ref": "Matthew 2:1, 11a"
+          },
+          {
+            "verse": "They prostrated themselves and did him homage. Then they opened their treasures and offered him gifts of gold, frankincense, and myrrh.",
+            "ref": "Matthew 2:11b"
+          },
+          {
+            "verse": "And Mary kept all these things, reflecting on them in her heart.",
+            "ref": "Luke 2:19"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "La Presentación de Jesús en el templo",
+        "number": "El Cuarto Misterio Gozoso",
+        "fruits": "obedience",
+        "scenes": [
+          {
+            "verse": "When the days were completed for their purification according to the law of Moses, they took him up to Jerusalem to present him to the Lord.",
+            "ref": "Luke 2:22"
+          },
+          {
+            "verse": "Now there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, awaiting the consolation of Israel.",
+            "ref": "Luke 2:25"
+          },
+          {
+            "verse": "It had been revealed to him by the holy Spirit that he should not see death before he had seen the Messiah of the Lord.",
+            "ref": "Luke 2:26"
+          },
+          {
+            "verse": "He came in the Spirit into the temple; and when the parents brought in the child Jesus to perform the custom of the law in regard to him, he took him into his arms and blessed God.",
+            "ref": "Luke 2:27-28"
+          },
+          {
+            "verse": "\"Now, Master, you may let your servant go in peace, according to your word, for my eyes have seen your salvation which you prepared in sight of all the peoples.\"",
+            "ref": "Luke 2:29-31"
+          },
+          {
+            "verse": "\"Simeon blessed them and said to Mary his mother, \"Behold, this child is destined for the fall and rise of many in Israel, and to be a sign that will be contradicted.\"",
+            "ref": "Luke 2:34"
+          },
+          {
+            "verse": "\"And you yourself a sword will pierce, so that the thoughts of many hearts may be revealed.\"",
+            "ref": "Luke 2:35"
+          },
+          {
+            "verse": "There was also a prophetess, Anna, the daughter of Phanuel, of the tribe of Asher. She was advanced in years, having lived seven years with her husband after her marriage, and then as a widow until she was eighty-four.",
+            "ref": "Luke 2:34"
+          },
+          {
+            "verse": "And coming forward at that very time, she gave thanks to God and spoke about the child to all who were awaiting the redemption of Jerusalem.",
+            "ref": "Luke 2:35"
+          },
+          {
+            "verse": "When they had fulfilled all the prescriptions of the law of the Lord, they returned to Galilee, to their own town of Nazareth. The child grew and became strong, filled with wisdom; and the favor of God was upon him.",
+            "ref": "Luke 2:39-40"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "El Niño Jesús perdido y hallado en el templo",
+        "number": "El Quinto Misterio Gozoso",
+        "fruits": "piety, joy of finding Jesus",
+        "scenes": [
+          {
+            "verse": "Each year his parents went to Jerusalem for the feast of Passover, and when he was twelve years old, they went up according to festival custom.",
+            "ref": "Luke 2:41-42"
+          },
+          {
+            "verse": "After they had completed its days, as they were returning, the boy Jesus remained behind in Jerusalem, but his parents did not know it.",
+            "ref": "Luke 2:43"
+          },
+          {
+            "verse": "They returned to Jerusalem to look for him. After three days they found him in the temple.",
+            "ref": "Luke 2:45-46a"
+          },
+          {
+            "verse": "He was sitting in the midst of the teachers, listening to them and asking them questions.",
+            "ref": "Luke 2:46b"
+          },
+          {
+            "verse": "And all who heard him were astounded at his understanding and his answers.",
+            "ref": "Luke 2:47"
+          },
+          {
+            "verse": "When his parents saw him, they were astonished, and his mother said to him, \"Son, why have you done this to us? Your father and I have been looking for you with great anxiety.\"",
+            "ref": "Luke 2:48"
+          },
+          {
+            "verse": "And he said to them, \"Why were you looking for me? Did you not know that I must be in my Father’s house?\"",
+            "ref": "Luke 2:49"
+          },
+          {
+            "verse": "But they did not understand what he said to them.",
+            "ref": "Luke 2:50"
+          },
+          {
+            "verse": "He went down with them and came to Nazareth, and was obedient to them; and his mother kept all these things in her heart.",
+            "ref": "Luke 2:51"
+          },
+          {
+            "verse": "And Jesus advanced in wisdom and age and favor before God and man.",
+            "ref": "Luke 2:52"
+          }
+        ]
+      }
+    ]
+  },
+  "luminous": {
+    "id": "luminous",
+    "name": "Luminous",
+    "decades": [
+      {
+        "id": 1,
+        "name": "Bautismo de Jesús en el Jordán",
+        "number": "El Primer Misterio Luminoso",
+        "fruits": "openness to the Holy Spirit",
+        "scenes": [
+          {
+            "verse": "John the Baptist appeared in the desert proclaiming a baptism of repentance for the forgiveness of sins.",
+            "ref": "Mark 1:4"
+          },
+          {
+            "verse": "A voice of one crying out in the desert, \"Prepare the way of the Lord, make straight his paths.\"",
+            "ref": "Luke 3:4b, Isaiah 40:3"
+          },
+          {
+            "verse": "Now the people were filled with expectation, and all were asking in their hearts whether John might be the Messiah.",
+            "ref": "Luke 3:15"
+          },
+          {
+            "verse": "\"I am baptizing you with water, but one mightier than I is coming. I am not worthy to loosen the thongs of his sandals. He will baptize you with the holy Spirit and fire.\"",
+            "ref": "Luke 3:16"
+          },
+          {
+            "verse": "The next day he saw Jesus coming toward him and said, \"Behold, the Lamb of God, who takes away the sin of the world.\"",
+            "ref": "John 1:29"
+          },
+          {
+            "verse": "John tried to prevent him, saying, \"I need to be baptized by you, and yet you are coming to me?\"",
+            "ref": "Matthew 3:14"
+          },
+          {
+            "verse": "Jesus said to him in reply, \"Allow it now, for thus it is fitting for us to fulfill all righteousness.\" Then he allowed him.",
+            "ref": "Matthew 3:15"
+          },
+          {
+            "verse": "After all the people had been baptized and Jesus also had been baptized and was praying, heaven was opened.",
+            "ref": "Luke 3:21"
+          },
+          {
+            "verse": "And the holy Spirit descended upon him in bodily form like a dove.",
+            "ref": "Luke 3:22a"
+          },
+          {
+            "verse": "And a voice came from heaven, \"You are my beloved Son; with you I am well pleased.\"",
+            "ref": "Luke 3:22b"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": " La autorrevelación de Jesús en las bodas de Caná",
+        "number": "El Segundo Misterio Luminoso",
+        "fruits": "to Jesus through Mary",
+        "scenes": [
+          {
+            "verse": "On the third day there was a wedding in Cana in Galilee, and the mother of Jesus was there. Jesus and his disciples were also invited to the wedding.",
+            "ref": "John 2:1-2"
+          },
+          {
+            "verse": "When the wine ran short, the mother of Jesus said to him, \"They have no wine.\"",
+            "ref": "John 2:3"
+          },
+          {
+            "verse": "Jesus said to her, \"Woman, how does your concern affect me? My hour has not yet come\"",
+            "ref": "John 2:4"
+          },
+          {
+            "verse": "His mother said to the servers, \"Do whatever he tells you.\" So he told them, \"Fill the jars with water.\"",
+            "ref": "John 2:5, 7"
+          },
+          {
+            "verse": "Then he told them, \"Draw some out now and take it to the headwaiter.\" The headwaiter called the bridegroom and said, \"You have kept the good wine until now.\"",
+            "ref": "John 2:8, 10"
+          },
+          {
+            "verse": "Jesus did this as the beginning of his signs in Cana in Galilee and so revealed his glory, and his disciples began to believe in him.",
+            "ref": "John 2:11"
+          },
+          {
+            "verse": "He set out from there and went into the district of Judea. The Pharisees approached and asked, \"Is it lawful for a husband to divorce his wife?\"",
+            "ref": "Mark 10:1-2"
+          },
+          {
+            "verse": "Jesus said, \"From the beginning of creation, God made them male and female. For this reason a man shall leave his father and mother and be joined to his wife.\"",
+            "ref": "Mark 10:6-7"
+          },
+          {
+            "verse": "\"And the two shall become one flesh. So they are no longer two but one flesh. Therefore what God has joined together, no human being must separate.\"",
+            "ref": "Mark 10:8, Genesis 2:24"
+          },
+          {
+            "verse": "Husbands, love your wives, even as Christ loved the church and handed himself over for her. Each one of you should love his wife as himself, and the wife should respect her husband.",
+            "ref": "Ephesians 5:25, 33"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "El anuncio del Reino de Dios invitando a la conversión",
+        "number": "El Tercer Misterio Luminoso",
+        "fruits": "repentance, trust in God",
+        "scenes": [
+          {
+            "verse": "He began to teach them, saying. \"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\"",
+            "ref": "Matthew 5:3"
+          },
+          {
+            "verse": "\"Blessed are they who mourn, for they will be comforted.\"",
+            "ref": "Matthew 5:4"
+          },
+          {
+            "verse": "\"Blessed are the meek, for they will inherit the land.\"",
+            "ref": "Matthew 5:5"
+          },
+          {
+            "verse": "\"Blessed are they two hunger and thirst for righteousness, for they will be satisfied.\"",
+            "ref": "Matthew 5:6"
+          },
+          {
+            "verse": "\"Blessed are the merciful, for they will be shown mercy.\"",
+            "ref": "Matthew 5:7"
+          },
+          {
+            "verse": "\"Blessed are the clean of heart, for they will see God.\"",
+            "ref": "Matthew 5:8"
+          },
+          {
+            "verse": "\"Blessed are the peacemakers, for they will be called children of God.\"",
+            "ref": "Matthew 5:9"
+          },
+          {
+            "verse": "\"Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven.\"",
+            "ref": "Matthew 5:10"
+          },
+          {
+            "verse": "\"Blessed are you when they insult you and persecute you and utter every kind of evil against you falsely because of me.\"",
+            "ref": "Matthew 5:11"
+          },
+          {
+            "verse": "\"Rejoice and be glad, for your reward will be great in heaven. Thus they persecuted the prophets who were before you.\"",
+            "ref": "Matthew 5:12"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "La Transfiguración",
+        "number": "El Cuarto Misterio Luminoso",
+        "fruits": "desire for holiness",
+        "scenes": [
+          {
+            "verse": "Jesus took Peter, John, and James and went up the mountain to pray.",
+            "ref": "Luke 9:28"
+          },
+          {
+            "verse": "And he was transfigured before them; his face shone like the sun and his clothes became white as light.",
+            "ref": "Matthew 17:2"
+          },
+          {
+            "verse": "And behold, two men were conversing with him, Moses and Elijah, who appeared in glory and spoke of his exodus that he was going to accomplish in Jerusalem.",
+            "ref": "Luke 9:30-31"
+          },
+          {
+            "verse": "Then Peter said to Jesus in reply, \"Rabbi, it is good that we are here! Let us make three tents: one for you, one for Moses, and one for Elijah.\"",
+            "ref": "Mark 9:5"
+          },
+          {
+            "verse": "While he was still speaking, a cloud came and cast a shadow over them, and they became frightened when they entered the cloud.",
+            "ref": "Luke 9:34"
+          },
+          {
+            "verse": "Then from the cloud came a voice that said, \"This is my beloved Son, with whom I am well pleased; listen to him.\"",
+            "ref": "Matthew 17:5"
+          },
+          {
+            "verse": "When the disciples heard this, they fell prostrate and were very much afraid.",
+            "ref": "Matthew 17:6"
+          },
+          {
+            "verse": "But Jesus came and touched them, saying, \"Rise, and do not be afraid.\"",
+            "ref": "Matthew 17:7"
+          },
+          {
+            "verse": "And when the disciples raised their eyes, they saw no one else but Jesus alone.",
+            "ref": "Matthew 17:8"
+          },
+          {
+            "verse": "As they were coming down from the mountain, he charged them not to relate what they had seen to anyone, except when the Son of Man had risen from the dead.",
+            "ref": "Mark 9:9"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "La Institución de la Eucaristía",
+        "number": "El Quinto Misterio Luminoso",
+        "fruits": "adoration",
+        "scenes": [
+          {
+            "verse": "Jesus said to them, \"I am the bread of life; whoever comes to me will never hunger, and whoever believes in me will never thirst.\"",
+            "ref": "John 6:35"
+          },
+          {
+            "verse": "\"The Jews quarreled among themselves, saying, \"How can this man give us his flesh to eat?\"",
+            "ref": "John 6:52"
+          },
+          {
+            "verse": "\"Unless you eat the flesh of the Son of Man and drink his blood, you do not have life within you. For my flesh is true food, and my blood is true drink.\"",
+            "ref": "John 6:53"
+          },
+          {
+            "verse": "As a result of this, many of his disciples returned to their former way of life and no longer accompanied him.",
+            "ref": "John 6:66"
+          },
+          {
+            "verse": "Jesus then said to the Twelve, \"Do you also want to leave?\"",
+            "ref": "John 6:67"
+          },
+          {
+            "verse": "Simon Peter answered him, \"Master, to whom shall we go? You have the words of eternal life. We have come to believe and are convinced that you are the Holy One of God.\"",
+            "ref": "John 6:68-69"
+          },
+          {
+            "verse": "While they were eating, Jesus took bread, said the blessing, broke it, and giving it to his disciples said, \"Take and eat; this is my body.\"",
+            "ref": "Matthew 26:26a"
+          },
+          {
+            "verse": "Then he took a cup, gave thanks, and gave it to them, saying, \"Drink from it, all of you.\"",
+            "ref": "Matthew 26:27"
+          },
+          {
+            "verse": "\"For this is my blood of the covenant, which will be shed on behalf of many for the forgiveness of sins.\"",
+            "ref": "Matthew 26:28"
+          },
+          {
+            "verse": "\"Amen, I say to you, I shall not drink again the fruit of the vine until the day when I drink it new in the kingdom of God.\"",
+            "ref": "Mark 14:25"
+          }
+        ]
+      }
+    ]
+  },
+  "sorrowful": {
+    "id": "sorrowful",
+    "name": "Sorrowful",
+    "decades": [
+      {
+        "id": 1,
+        "name": "La Oración de Jesús en el Huerto",
+        "number": "El Primer Misterio Doloroso",
+        "fruits": "contrition, conformity to God's will",
+        "scenes": [
+          {
+            "verse": "Jesus came with them to a place called Gethsemane, and he said to his disciples, \"Sit here while I go over there and pray.\"",
+            "ref": "Matthew 26:36"
+          },
+          {
+            "verse": "Then he said to them, \"My soul is sorrowful even to death. Remain here and keep watch with me.\"",
+            "ref": "Matthew 26:38"
+          },
+          {
+            "verse": "He advanced a little and fell prostrate in prayer, saying, \"My Father, if it is possible, let this cup pass from me; yet, not as I will, but as you will.\"",
+            "ref": "Matthew 26:39"
+          },
+          {
+            "verse": "And to strengthen him an angel from heaven appeared to him.",
+            "ref": "Luke 22:43"
+          },
+          {
+            "verse": "He was in such agony and he prayed so fervently that his sweat became like drops of blood falling on the ground.",
+            "ref": "Luke 22:44"
+          },
+          {
+            "verse": "My heart pounds within me; death’s terrors fall upon me. Fear and trembling overwhelm me; shuddering sweeps over me.",
+            "ref": "Psalm 55:5-6"
+          },
+          {
+            "verse": "Then he came back to his disciples and found them sleeping, and he said, \"So you had not the strength to keep awake with me one hour?\"",
+            "ref": "Matthew 26:40"
+          },
+          {
+            "verse": "\"You should be awake, and praying not to be put to the test. The spirit is willing, but the flesh is weak.\"",
+            "ref": "Matthew 26:41"
+          },
+          {
+            "verse": "While he was still speaking, Judas, one of the Twelve, arrived, accompanied by a large crowd. Immediately he went over to Jesus and said, \"Hail, Rabbi!\" and he kissed him.",
+            "ref": "Matthew 26:47, 49"
+          },
+          {
+            "verse": "Jesus answered him, \"Friend, do what you have come for.\" Then stepping forward they laid hands on Jesus and arrested him.",
+            "ref": "Matthew 26:50"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "La Flagelación del Señor",
+        "number": "El Segundo Misterio Doloroso",
+        "fruits": "purification, sacrifice",
+        "scenes": [
+          {
+            "verse": "They bound Jesus, led him away, and handed him over to Pilate. Pilate questioned him, \"Are you the king of the Jews?\"",
+            "ref": "Mark 15:1-2"
+          },
+          {
+            "verse": "Jesus said, \"You say so.\" And when he was accused by the chief priests and elders, he made no answer.",
+            "ref": "Matthew 27:11b-12"
+          },
+          {
+            "verse": "Again Pilate questioned him, \"Have you no answer? See how many things they accuse you of.\" Jesus gave him no further answer, so that Pilate was amazed.",
+            "ref": "Mark 15:4-5"
+          },
+          {
+            "verse": "Pilate then addressed the chief priests and the crowds, \"I find this man not guilty.\"",
+            "ref": "Luke 23:4"
+          },
+          {
+            "verse": "Then Pilate took Jesus away and had him scourged.",
+            "ref": "John 19:1"
+          },
+          {
+            "verse": "He was spurned and avoided by men, a man of suffering, knowing pain.",
+            "ref": "Isaiah 53:3"
+          },
+          {
+            "verse": "Yet it was our pain that he bore, our sufferings he endured.",
+            "ref": "Isaiah 53:4"
+          },
+          {
+            "verse": "But he was pierced for our sins, crushed for our iniquity. He bore the punishment that makes us whole, by his wounds we were healed.",
+            "ref": "Isaiah 53:5"
+          },
+          {
+            "verse": "Like a lamb led to slaughter, or a sheep silent before shearers, he did not open his mouth.",
+            "ref": "Isaiah 53:7"
+          },
+          {
+            "verse": "Because he surrendered himself to death, was counted among the transgressors. Bore the sins of many, and interceded for the transgressors.",
+            "ref": "Isaiah 53:12"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "La Coronación de espinas",
+        "number": "El Tercer Misterio Doloroso",
+        "fruits": "moral courage",
+        "scenes": [
+          {
+            "verse": "The Pilate took some water, washed his hands in front of the crowds and said, \"I am innocent of this man's blood. It is your concern.\"",
+            "ref": "Matthew 27:24"
+          },
+          {
+            "verse": "The soldiers led him away inside the palace, that is, the praetorium. They stripped off his clothes and threw a scarlet military cloak about him.",
+            "ref": "Mark 15:16, Matthew 27:28"
+          },
+          {
+            "verse": "Weaving a crown out of thorns, they placed it on his head, and a reed in his right hand.",
+            "ref": "Matthew 27:29a"
+          },
+          {
+            "verse": "And kneeling before him, they mocked him, saying, \"Hail, King of the Jews!\" They spat upon him and took the reed and kept striking him on the head.",
+            "ref": "Matthew 27:29b-30"
+          },
+          {
+            "verse": "So Jesus came out, wearing the crown of thorns and the purple cloak.",
+            "ref": "John 19:5"
+          },
+          {
+            "verse": "When the chief priests and the guards saw him they cried out, \"Crucify him, crucify him!\"",
+            "ref": "John 19:6"
+          },
+          {
+            "verse": "All together they shouted out, \"Away with this man! Release Barabbas to us.\"",
+            "ref": "Luke 23:18"
+          },
+          {
+            "verse": "Pilate said to them, \"Why? What evil has he done?\" They only shouted the louder, \"Crucify him!\"",
+            "ref": "Mark 15:14"
+          },
+          {
+            "verse": "\"Shall I crucify your king?\" The chief priests answered, \"We have no king but Caesar.\"",
+            "ref": "John 19:15"
+          },
+          {
+            "verse": "So he released the man who had been imprisoned for rebellion and murder, for whom they asked, and he handed Jesus over to them to deal with as they wished.",
+            "ref": "Luke 23:25"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Jesús con la Cruz a cuestas camino del Calvario",
+        "number": "El Cuarto Misterio Doloroso",
+        "fruits": "patience",
+        "scenes": [
+          {
+            "verse": "\"Whoever wishes to come after me must deny himself, take up his cross, and follow me.\"",
+            "ref": "Matthew 16:24"
+          },
+          {
+            "verse": "\"For whoever wishes to save his life will lose it, but whoever loses his life for my sake will find it.\"",
+            "ref": "Matthew 16:25"
+          },
+          {
+            "verse": "So they took Jesus, and carrying the cross himself he went out to what is called the Place of the Skull, in Hebrew, Golgotha.",
+            "ref": "John 19:17"
+          },
+          {
+            "verse": "They pressed into service a passer-by, Simon, a Cyrenian, who was coming in from the country, to carry his cross.",
+            "ref": "Mark 15:21"
+          },
+          {
+            "verse": "A large crowd of people followed Jesus, including many women who mourned and lamented him.",
+            "ref": "John 19:27"
+          },
+          {
+            "verse": "Jesus turned to them and said, \"Daughters of Jerusalem, do not weep for me; weep instead for yourselves and for your children.\"",
+            "ref": "Luke 23:28"
+          },
+          {
+            "verse": "\"Come to me, all you who labor and are burdened, and I will give you rest.\"",
+            "ref": "Matthew 11:28"
+          },
+          {
+            "verse": "\"Take my yoke upon you and learn from me, for I am meek and humble of heart; and you will find rest for yourselves.\" ",
+            "ref": "Matthew 11:29"
+          },
+          {
+            "verse": "He emptied himself, taking the form of a slave, coming in human likeness, and found human in appearance.",
+            "ref": "Philippians 2:7"
+          },
+          {
+            "verse": "He humbled himself, becoming obedient to death, even death on a cross.",
+            "ref": "Philippians 2:8"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "La Crucifixión y Muerte de Nuestro Señor",
+        "number": "El Quinto Misterio Doloroso",
+        "fruits": "salvation, perseverance in faith, forgiveness",
+        "scenes": [
+          {
+            "verse": "When they came to the place called the Skull, they crucified him and the criminals there, one on his right, the other on his left.",
+            "ref": "Luke 23:33"
+          },
+          {
+            "verse": "Then Jesus said, \"Father, forgive them, they know not what they do.\" They divided his garments by casting lots.",
+            "ref": "Luke 23:34"
+          },
+          {
+            "verse": "One of the criminals with him said, \"Jesus, remember me when you come into your kingdom.\"",
+            "ref": "Luke 23:42"
+          },
+          {
+            "verse": "He replied to him, \"Amen, I say to you, today you will be with me in Paradise.\"",
+            "ref": "Luke 23:43"
+          },
+          {
+            "verse": "Then Jesus saw his mother and the disciple there whom he loved, he said to his mother, \"Woman, behold, your son.\"",
+            "ref": "John 19:26"
+          },
+          {
+            "verse": "Then he said to the disciple, \"Behold, your mother.\" And from that hour the disciple took her into his home.",
+            "ref": "John 19:27"
+          },
+          {
+            "verse": "Darkness came over the whole land until three in the afternoon because of an eclipse of the sun. Then the veil of the temple was torn down the middle.",
+            "ref": "Luke 44-45"
+          },
+          {
+            "verse": "Jesus cried out in a loud voice, \"My God, my God, why have you forsaken me?\"",
+            "ref": "Mark 15:34, Psalm 22:2"
+          },
+          {
+            "verse": "\"Father, into your hands I commend my spirit\"; and when he had said this he breathed his last.",
+            "ref": "Luke 23:46"
+          },
+          {
+            "verse": "When the centurion who stood facing him saw how he breathed his last he said, \"Truly this man was the Son of God!\"",
+            "ref": "Mark 15:39"
+          }
+        ]
+      }
+    ]
+  }
+}

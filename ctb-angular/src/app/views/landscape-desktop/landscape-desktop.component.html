@@ -1,26 +1,19 @@
 <div class="desktop-view" id="desktop-box">
-  <h1>Connecting The Beads</h1>
-  <p style="text-align: center; font-style: italic">Rediscover the Rosary with Scripture and Artwork</p>
+  <h1>{{ title }}</h1>
+  <p style="text-align: center; font-style: italic">{{ text.hook }}</p>
 
   <div class="body-content">
     <section>
-      <p>
-        This simple and elegant web app is designed to help newcomers and daily devotees pray the Rosary. Relevant
-        scripture verses and emotive artwork for each mystery allows you to stay focused and meditate on the lives of
-        Jesus and Mary.
-      </p>
+      <p>{{ text.desc }}</p>
       <div class="div-line"></div>
+      <p>{{ text.instructions }}</p>
       <p>
-        You can install Connecting The Beads on any smartphone or tablet by pressing "Add to Home Screen", or shrink
-        your desktop browser to view the app. Requires at least iOS 12.2 or Chrome 51. Built using Angular.
-      </p>
-      <p>
-        The 20 Mysteries of The Rosary - Bellazzi<br />
-        Copyright 2021 - Used with permission<br />
-        Fratelli Bonella - Milan, Italy
+        {{ copyright.copyr_img_p1 }}<br />
+        {{ copyright.copyr_img_p2 }}<br />
+        {{ copyright.copyr_img_p3 }}
       </p>
       <p></p>
-      <p>Copyright &copy; Ian G 2021</p>
+      <p>{{ copyright.copyright }} &copy; Ian G 2021</p>
     </section>
     <aside>
       <img

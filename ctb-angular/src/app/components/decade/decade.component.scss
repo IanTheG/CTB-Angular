@@ -45,8 +45,30 @@
     }
   }
   .verse {
+    display: block;
     > p {
       margin-left: 0;
     }
   }
+  .hail-mary {
+    display: none;
+    > p {
+      margin-left: 0;
+    }
+  }
+}
+
+input#num {
+  position: absolute;
+  margin: 1rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  opacity: 0;
+}
+
+#num:checked ~ .verse {
+  display: none;
+}
+#num:checked ~ .hail-mary {
+  display: block;
 }

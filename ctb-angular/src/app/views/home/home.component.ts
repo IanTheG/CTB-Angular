@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core'
+import { HomeI, PrayersI } from 'src/app/models/lang'
 import { AnimationsService } from 'src/app/services/animations.service'
-import PRAYERS from '../../../assets/prayers.json'
+import { TranslateService } from 'src/app/services/translate.service'
 
 @Component({
   selector: 'app-home',
@@ -8,17 +9,28 @@ import PRAYERS from '../../../assets/prayers.json'
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor(private animations: AnimationsService) {}
+  // Initialize text and prayers, subscribe to the current language in translate service
+  text: HomeI = {} as HomeI
+  prayers: PrayersI = {} as PrayersI
+  checked: boolean = false
 
-  creed = PRAYERS.CREED
-  our_father = PRAYERS.OUR_FATHER
-  hail_mary = PRAYERS.HAIL_MARY
-  glory_be = PRAYERS.GLORY_BE
+  constructor(private animations: AnimationsService, private translate: TranslateService) {
+    this.translate.lang.subscribe((e) => {
+      this.prayers = e.prayers
+      this.text = e.home
+    })
+  }
 
   currentDay: number = new Date().getDay()
 
   ngOnInit(): void {
+    if (this.translate.getLangInStorage()) this.checked = true
     document.getElementById('top-box')?.scrollIntoView(true)
     this.animations.fadeBoxes()
+  }
+
+  toggleLang(): void {
+    if (this.checked) this.translate.setLang('es')
+    else if (!this.checked) this.translate.setLang('en')
   }
 }
